@@ -1,0 +1,42 @@
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-5.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Mozilla.Firefox.ESR.bn
+PackageVersion: 128.4.0
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Silent: /S /PreventRebootRequired=true
+  SilentWithProgress: /S /PreventRebootRequired=true
+  InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+FileExtensions:
+- avif
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+ReleaseDate: 2024-10-29
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.4.0esr/win32/bn/Firefox%20Setup%20128.4.0esr.exe
+  InstallerSha256: 1CCE0F62BE3D6FF0C83342C41FD649AFB3E45BCC662CC9A51A88B45B71D7BADE
+  ProductCode: Mozilla Firefox 128.4.0 ESR (x86 bn)
+- Architecture: x64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.4.0esr/win64/bn/Firefox%20Setup%20128.4.0esr.exe
+  InstallerSha256: 5188FE2F9D22D96742C477890D4C529A7918837F123D0BA4B6200C1167B47BC6
+  ProductCode: Mozilla Firefox 128.4.0 ESR (x64 bn)
+- Architecture: arm64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/128.4.0esr/win64-aarch64/bn/Firefox%20Setup%20128.4.0esr.exe
+  InstallerSha256: D4D99FA5BDEAE202A52E8C5E2BFC9BE633024777DF2E615C6C238E3CD32E0FE5
+  ProductCode: Mozilla Firefox 128.4.0 ESR (arm64 bn)
+ManifestType: installer
+ManifestVersion: 1.6.0
