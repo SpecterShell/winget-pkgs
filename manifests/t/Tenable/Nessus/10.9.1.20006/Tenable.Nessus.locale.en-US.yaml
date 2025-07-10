@@ -19,7 +19,18 @@ ShortDescription: Vulnerability scanner developed by Tenable
 Tags:
 - security
 - vulnerability
-ReleaseNotesUrl: https://docs.tenable.com/release-notes/Content/nessus/nessus.htm
+ReleaseNotes: |-
+  Bug Fixes
+
+  Bug Fix
+
+  Defect ID
+  Fixed an issue so that standalone Tenable Nessus Managers no longer terminate agent scan windows prematurely. 02280871
+  Upgrade Notes
+  - You can upgrade to the latest version of Tenable Agent from any previously supported version.
+  - If your upgrade path skips versions of the Tenable Agent, Tenable recommends reviewing the release notes for all skipped versions to learn about new features and bug fixes.
+  - If you are connecting to Tenable Vulnerability Management through Tenable Nessus scanners, Tenable Agents, Tenable Web App Scanning scanners, or Tenable Network Monitors (NNM) located in mainland China, you must connect through sensor.cloud.tenablecloud.cn instead of sensor.cloud.tenable.com.
+ReleaseNotesUrl: https://docs.tenable.com/release-notes/Content/nessus/2025.htm
 Documentations:
 - DocumentLabel: Documentation
   DocumentUrl: https://docs.tenable.com/Nessus.htm
