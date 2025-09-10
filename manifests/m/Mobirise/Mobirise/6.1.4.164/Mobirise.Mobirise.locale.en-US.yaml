@@ -20,6 +20,11 @@ Tags:
 - web
 - webpage
 - website
+ReleaseNotes: |-
+  - [new] Added option to change H tags for titles.
+  - [new] Added justify option for text alignment.
+  - [new] Added visible outline for focused elements to improve accessibility.
+  - [AI] Added Recent Generations list to the 'Create with Mobirise AI' window.
 ReleaseNotesUrl: https://history.mobirisesite.com/
 PurchaseUrl: https://mobirise.com/extensions/kit/
 ManifestType: defaultLocale
