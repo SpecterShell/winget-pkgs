@@ -1,0 +1,74 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+
+PackageIdentifier: ThinkInAIXYZ.DeepChat
+PackageVersion: 0.5.0
+PackageLocale: zh-CN
+Publisher: ThinkInAIXYZ
+PublisherUrl: https://thinkinai.xyz/
+PublisherSupportUrl: https://deepchat.thinkinai.xyz/#/contact
+PackageName: DeepChat
+PackageUrl: https://deepchat.thinkinai.xyz/
+License: Apache-2.0
+LicenseUrl: https://github.com/ThinkInAIXYZ/deepchat/blob/HEAD/LICENSE
+Copyright: Copyright 2025 ThinkInAIXYZ
+ShortDescription: DeepChat 是一个多平台 AI 客户端，致力于让更多人享受 AI 带来的便利。
+Description: DeepChat 是一款企业级智能对话平台，基于先进的大语言模型（LLM）技术，为用户提供流畅自然的对话体验。它不仅是一个简单的聊天工具，更是一个强大的内容生成和知识管理助手。
+Tags:
+- ai
+- chatgpt
+- claude
+- deepseek
+- gemini
+- kimi
+- llama
+- llm
+- mistral
+- 人工智能
+- 大语言模型
+- 聊天机器人
+- 豆包
+- 通义千问
+ReleaseNotes: |-
+  🚀 DeepChat 0.5.0 正式发布 | 重新定义你的 AI 对话体验！
+  —— 不再是简单的 ChatBot，而是你的自然语言 Agent 工具🌟
+  English:
+  - Added support for MCP UI resources with new resource block types, enabling richer AI interaction and custom UI rendering.
+  - Improved ACP process environment handling, propagating full shell environments to agent processes for better compatibility.
+  - Updated vue markdown renderer to markstream-vue for more flexible markdown and HTML rendering.
+  - Enhanced custom model management workflow; simplified adding models with a dialog.
+  - Added resize capability to chat input for improved usability.
+  - Various bug fixes and code refactoring, including normalization of environment variables, permission management enhancements, and streamline build outputs.
+  - Removed unused files in build and improved packaging resource management (electron config optimizations).
+  中文：
+  - 新增对 MCP UI 资源支持，添加了新的资源块类型，实现更加丰富的 AI 交互和自定义 UI 渲染能力。
+  - 优化 ACP 进程环境处理，支持完整 Shell 环境变量传递，提高兼容性。
+  - vue markdown 渲染器升级为 markstream-vue，提升 Markdown 与 HTML 渲染灵活性。
+  - 改进自定义模型管理流程，添加模型对话框，操作更简便。
+  - 聊天输入框支持大小调整，提升使用体验。
+  - 修复多项 bug 并进行代码重构，包括环境变量标准化、权限管理增强及构建输出简化。
+  - 构建流程调整，移除无用文件，优化 electron 打包资源管理。
+    🔥 为什么选择 DeepChat？
+  ✅ 商业友好：基于原版 Apache License 2.0 开源，无任何协议外的额外约束，面向开源。
+  ✅ 开箱即用：极简配置，即刻开启你的智能对话之旅。
+  ✅ 极致灵活：自由切换模型，自定义模型源，满足你多样化的对话和探索需求。
+  ✅ 体验绝佳：LaTeX 公式渲染、代码高亮、Markdown 支持，模型对话从未如此顺畅。
+  ✅ 持续进化：我们倾听用户反馈，不断迭代更新，为你带来更卓越的 AI 对话体验。
+  📥 立即体验未来
+  💬 反馈有礼：欢迎提交你的宝贵建议，加入 VIP 用户社群，与我们一同塑造 DeepChat 的未来！
+  What's Changed
+  - feat: add support for mcp ui by @zerob13 in https://github.com/ThinkInAIXYZ/deepchat/pull/1120
+  - fix: acp process env by @zerob13 in https://github.com/ThinkInAIXYZ/deepchat/pull/1121
+  - fix: mcp args with space #1114 by @zerob13 in https://github.com/ThinkInAIXYZ/deepchat/pull/1123
+  - feat: better custom model provider by @zerob13 in https://github.com/ThinkInAIXYZ/deepchat/pull/1124
+  - fix: fix GitHub login verification failure by @zhangmo8 in https://github.com/ThinkInAIXYZ/deepchat/pull/1127
+  - feat: update vue-renderer-markdown to version 0.0.63-beta.2 and integrate theme support in NodeRenderer components by @Simon-He95 in https://github.com/ThinkInAIXYZ/deepchat/pull/1125
+  - feat: resize chat input by @zhangmo8 in https://github.com/ThinkInAIXYZ/deepchat/pull/1126
+  - chore: rename vue markdown renderer by @zerob13 in https://github.com/ThinkInAIXYZ/deepchat/pull/1128
+  Full Changelog: https://github.com/ThinkInAIXYZ/deepchat/compare/v0.4.9...v0.5.0
+ReleaseNotesUrl: https://github.com/ThinkInAIXYZ/deepchat/releases/tag/v0.5.0
+Documentations:
+- DocumentLabel: 文档
+  DocumentUrl: https://deepchat.thinkinai.xyz/docs/
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0
