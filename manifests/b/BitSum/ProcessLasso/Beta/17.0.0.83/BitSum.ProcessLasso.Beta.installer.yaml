@@ -1,0 +1,22 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: BitSum.ProcessLasso.Beta
+PackageVersion: 17.0.0.83
+InstallerType: nullsoft
+Scope: machine
+UpgradeBehavior: install
+ProductCode: ProcessLasso
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bitsum.com/files/beta/processlassosetup32.exe
+  InstallerSha256: 8CCF4E702318525FBC99EB3071BC2B6E27ABAF2CE496CC8D76317EBE55DE3E69
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles(x86)%\Process Lasso'
+- Architecture: x64
+  InstallerUrl: https://dl.bitsum.com/files/beta/processlassosetup64.exe
+  InstallerSha256: 52BB1F8077B3D167E276414C759CC2041CA28AE23DBACF43C8CD9715EE55717B
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%\Process Lasso'
+ManifestType: installer
+ManifestVersion: 1.10.0
