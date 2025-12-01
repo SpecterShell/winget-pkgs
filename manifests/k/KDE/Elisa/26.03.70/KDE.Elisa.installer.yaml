@@ -9,14 +9,14 @@ ProductCode: Elisa
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4132-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: D5A6D69BC7C633C0E20C56D7F1B30B0B1BE2F3DD284E514495E8EEA181630840
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4137-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 27799A314A881D833081014C65A17EDC09F7986BB21E94E541BA3C78A4612D43
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4132-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: D5A6D69BC7C633C0E20C56D7F1B30B0B1BE2F3DD284E514495E8EEA181630840
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4137-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 27799A314A881D833081014C65A17EDC09F7986BB21E94E541BA3C78A4612D43
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
