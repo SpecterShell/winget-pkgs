@@ -1,0 +1,16 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: yetone.OpenAITranslator
+PackageVersion: 0.6.11
+InstallerType: nullsoft
+Scope: user
+UpgradeBehavior: install
+ProductCode: OpenAI Translator
+ReleaseDate: 2026-03-26
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/nextai-translator/nextai-translator/releases/download/v0.6.11/NextAI.Translator_0.6.11_x64-setup.exe
+  InstallerSha256: 3C1B2337179B542CE7FD1571104C8C1DACF7CA98ACB5112AE35A5BB9F9043AB0
+ManifestType: installer
+ManifestVersion: 1.12.0
