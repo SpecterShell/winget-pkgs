@@ -1,0 +1,22 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Atlassian.AtlassianCLI
+PackageVersion: 1.3.16-stable
+InstallerType: zip
+NestedInstallerType: portable
+Commands:
+- acli
+Installers:
+- Architecture: x64
+  NestedInstallerFiles:
+  - RelativeFilePath: acli_1.3.16-stable_windows_amd64\acli.exe
+  InstallerUrl: https://acli.atlassian.com/windows/1.3.16-stable/acli_1.3.16-stable_windows_amd64.zip
+  InstallerSha256: 6AB622F528D17A5CA78AE2DC0C10C0B5B4CA402171F85DC2E4AA39AA088FA31E
+- Architecture: arm64
+  NestedInstallerFiles:
+  - RelativeFilePath: acli_1.3.16-stable_windows_arm64\acli.exe
+  InstallerUrl: https://acli.atlassian.com/windows/1.3.16-stable/acli_1.3.16-stable_windows_arm64.zip
+  InstallerSha256: BFE7263850733A04CFCF3B249485B895F01D3AA62376EF9FE1F71FF2D64F7D78
+ManifestType: installer
+ManifestVersion: 1.12.0
