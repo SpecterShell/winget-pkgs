@@ -1,0 +1,40 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Mozilla.Firefox.bs
+PackageVersion: 151.0.1
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Silent: /S /PreventRebootRequired=true
+  SilentWithProgress: /S /PreventRebootRequired=true
+  InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+FileExtensions:
+- avif
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+ProductCode: Mozilla Firefox
+ReleaseDate: 2026-05-21
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0.1/win32/bs/Firefox%20Setup%20151.0.1.exe
+  InstallerSha256: 14DE08DACF6481ECCBB76CD9AA83554E8CB96FD1FA50AB52068F621833D9314D
+- Architecture: x64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0.1/win64/bs/Firefox%20Setup%20151.0.1.exe
+  InstallerSha256: 683A972BCACF95359B784127C3A3EF0E25F4B2E1BD495C32D05B8840EF1CF563
+- Architecture: arm64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/firefox/releases/151.0.1/win64-aarch64/bs/Firefox%20Setup%20151.0.1.exe
+  InstallerSha256: 49427F3095A99B0BCA574EB2F078276EDB297D6E869D9487C2744644E8400F66
+ManifestType: installer
+ManifestVersion: 1.12.0
