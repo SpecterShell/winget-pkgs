@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: KDE.KFourInLine
 PackageVersion: master
@@ -9,15 +9,15 @@ ProductCode: kfourinline
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kfourinline/master/windows/kfourinline-master-757-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: F2C76CC68C1D7D6F22F5DE5C467005CE009DD49EAA658F8990926E0F7A7BBBAE
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kfourinline/master/windows/kfourinline-master-904-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 1DED3868D73A2EDB1949C400A6655D59D64F7D75E04C148464296D3E20E32BF4
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kfourinline/master/windows/kfourinline-master-757-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: F2C76CC68C1D7D6F22F5DE5C467005CE009DD49EAA658F8990926E0F7A7BBBAE
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kfourinline/master/windows/kfourinline-master-904-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 1DED3868D73A2EDB1949C400A6655D59D64F7D75E04C148464296D3E20E32BF4
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0

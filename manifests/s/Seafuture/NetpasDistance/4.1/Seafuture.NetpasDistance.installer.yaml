@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Seafuture.NetpasDistance
 PackageVersion: "4.1"
@@ -14,9 +14,9 @@ ProductCode: '{CC30CFEA-EACB-46AB-B4C4-B8D16FD003A9}_is1'
 Installers:
 - Architecture: x86
   InstallerUrl: https://file.netpas.net/ftp/NetpasDistanceSetup.exe
-  InstallerSha256: 9B9A2944088A1364FA8BB7A017906B28E7E3A81028B5108961706387B25D6DEA
+  InstallerSha256: 6E46CD98A9D46A43F1595EBBD7011D66E1E0874E1458D3C68DC38785EBF25E3E
 - Architecture: x64
   InstallerUrl: https://file.netpas.net/ftp/NetpasDistanceSetup.exe
-  InstallerSha256: 9B9A2944088A1364FA8BB7A017906B28E7E3A81028B5108961706387B25D6DEA
+  InstallerSha256: 6E46CD98A9D46A43F1595EBBD7011D66E1E0874E1458D3C68DC38785EBF25E3E
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0

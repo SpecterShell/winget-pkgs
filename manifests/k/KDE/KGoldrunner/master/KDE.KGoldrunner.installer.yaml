@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: KDE.KGoldrunner
 PackageVersion: master
@@ -9,15 +9,15 @@ ProductCode: kgoldrunner
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-922-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 6560AB2E7DAA0FB9EA60D71F8BF75139259647D3AFE68DDB65BD8B77D34D4AB6
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1101-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: DB6F41AA932A70E750D3514364DE90BC1E1230329598C15FB71A853787AD43CA
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-922-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 6560AB2E7DAA0FB9EA60D71F8BF75139259647D3AFE68DDB65BD8B77D34D4AB6
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1101-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: DB6F41AA932A70E750D3514364DE90BC1E1230329598C15FB71A853787AD43CA
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
-ManifestVersion: 1.10.0
+ManifestVersion: 1.12.0
