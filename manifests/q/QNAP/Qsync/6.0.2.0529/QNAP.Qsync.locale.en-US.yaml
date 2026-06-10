@@ -16,5 +16,15 @@ Tags:
 - nas
 - storage
 - sync
+ReleaseNotes: |-
+  [Enhancements]
+  - Enhanced the presentation of backup tasks for more intuitive status monitoring.
+  - Updated core components to further improve compatibility and overall stability.
+  [Fixed Issues]
+  - Fixed an issue where disconnections could occur during large file transfers, thus improving transfer reliability.
+  - Fixed issues that could lead to unexpected application behaviors in certain scenarios for enhanced overall stability.
+  - Fixed issues where QNAP ID (QID) notifications might not display correctly, improving connection status clarity.
+  - Fixed issues where backup task results and logs could be inconsistent, ensuring more accurate task information.
+  - Fixed some display issues related to UI behaviors and interactions to improve usability.
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
