@@ -6,10 +6,12 @@ appsandfeaturesentries
 appwiz
 appx
 arp
+authorable
 bcdboot
 checkboxes
 cla
 clonemedium
+Cloudflight
 codeowner
 codeowners
 Contoso
@@ -17,6 +19,8 @@ diffs
 DISM
 dism
 distro
+dsc
+DSCv
 Entra
 Esco
 ESRP
@@ -27,6 +31,7 @@ fnt
 ftp
 github
 GPT
+HKLM
 Homeserver
 homeservers
 https
@@ -68,9 +73,12 @@ ranhpa
 ranpha
 redirector
 Redistributables
+restsource
+rewinged
 Runtimes
 russellbanks
 screenshots
+sixel
 Smartscreen
 ssh
 standalone
@@ -81,6 +89,7 @@ Testplan
 toolset
 Trenly
 ttc
+UAC
 ubuntu
 UEFI
 unassign

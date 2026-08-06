@@ -14,9 +14,10 @@ Protocols:
 - seal
 - sealsuite
 ProductCode: CorpLink
+ReleaseDate: 2026-07-29
 Installers:
 - Architecture: x86
-  InstallerUrl: https://cdn.isealsuite.com/windows/FeiLian_Windows_x86_v3.2.16_r3946_090427.exe
-  InstallerSha256: 1D414650EF2C5543525E7EA5C95B6B076D01E6BA9BBE1E99F54547C33B772D4E
+  InstallerUrl: https://cdn.isealsuite.com/windows/FeiLian_Windows_x86_v3.2.16_r5163_6b4f1a.exe
+  InstallerSha256: C2EC6FF284401032453404E52041FE82266253757E06BF915AB476720724036C
 ManifestType: installer
 ManifestVersion: 1.12.0

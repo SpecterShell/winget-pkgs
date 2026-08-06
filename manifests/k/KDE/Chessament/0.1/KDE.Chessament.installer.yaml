@@ -6,17 +6,18 @@ PackageVersion: "0.1"
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: Chessament
+ReleaseDate: 2026-08-04
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/chessament/master/windows/chessament-master-663-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: DDCA4878637C335084D090A9957470DE6C77A7BF96B7B0A40FACFD43A0F48B04
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/chessament/master/windows/chessament-master-776-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: C0EB906E564EFA8E940F21F2703DF2A5EF004B96B081D39C245837240D106A70
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/chessament/master/windows/chessament-master-663-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: DDCA4878637C335084D090A9957470DE6C77A7BF96B7B0A40FACFD43A0F48B04
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/chessament/master/windows/chessament-master-776-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: C0EB906E564EFA8E940F21F2703DF2A5EF004B96B081D39C245837240D106A70
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
