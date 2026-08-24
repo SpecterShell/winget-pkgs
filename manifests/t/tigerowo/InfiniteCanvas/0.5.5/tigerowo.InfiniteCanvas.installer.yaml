@@ -1,0 +1,25 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: tigerowo.InfiniteCanvas
+PackageVersion: 0.5.5
+InstallerType: wix
+Scope: machine
+InstallerSwitches:
+  InstallLocation: INSTALLDIR="<INSTALLPATH>"
+ReleaseDate: 2026-08-21
+AppsAndFeaturesEntries:
+- UpgradeCode: '{030F7069-E17A-5B81-8F9A-58292FDE2049}'
+Installers:
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerUrl: https://github.com/tigerowo/infinite-canvas/releases/download/v0.5.5/Infinite.Canvas_0.5.5_x64_en-US.msi
+  InstallerSha256: 57024E3A68ACF48121C3A11DDF9D34A5E1F64EA47D8B1DBC776CD2BA0E4ECF74
+  ProductCode: '{066EB850-63D8-4CE3-8EF4-AC9353D9E95A}'
+- InstallerLocale: zh-CN
+  Architecture: x64
+  InstallerUrl: https://github.com/tigerowo/infinite-canvas/releases/download/v0.5.5/Infinite.Canvas_0.5.5_x64_zh-CN.msi
+  InstallerSha256: BE94C334BCEC5DA5F8F36C7DBCD882A17A1A2FC889846EED5F22484D1FF4ED5D
+  ProductCode: '{473C0BF5-88F4-49B2-B751-47E5F3B9BDD1}'
+ManifestType: installer
+ManifestVersion: 1.12.0
