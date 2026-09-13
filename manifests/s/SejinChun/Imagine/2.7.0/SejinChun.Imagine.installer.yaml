@@ -1,0 +1,83 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: SejinChun.Imagine
+PackageVersion: 2.7.0
+InstallerType: nullsoft
+Scope: user
+FileExtensions:
+- ani
+- anm
+- avif
+- bmp
+- bpg
+- cdr
+- clip
+- clp
+- cur
+- dcm
+- dcx
+- dds
+- emf
+- exr
+- flc
+- fli
+- gif
+- hdp
+- hdr
+- heif
+- icl
+- icns
+- ico
+- jbg
+- jp2
+- jpc
+- jpg
+- jxl
+- lbm
+- mac
+- mbm
+- mng
+- pam
+- pbm
+- pcd
+- pcx
+- pdn
+- pfm
+- pgm
+- pic
+- png
+- ppm
+- psd
+- psp
+- qoi
+- ras
+- rla
+- rle
+- sgi
+- spr
+- svg
+- tga
+- tgs
+- tif
+- wbmp
+- webp
+- wmf
+- wpg
+- xbm
+- xcf
+- xpm
+ProductCode: Imagine
+ReleaseDate: 2026-09-12
+Installers:
+- Architecture: x86
+  InstallerUrl: https://raw.githubusercontent.com/nyam1003/imagine/bae032094fb7e1f72c1c6c3dcbfb951502c04df1/Imagine_2.7.0_Unicode_Full.exe
+  InstallerSha256: CAB959B6EBF3721EB8D345FF3A4721614ABB6D92F775236406E46D07C4F71675
+- Architecture: x64
+  InstallerUrl: https://raw.githubusercontent.com/nyam1003/imagine/bae032094fb7e1f72c1c6c3dcbfb951502c04df1/x64/Imagine_2.7.0_x64_Unicode_Full.exe
+  InstallerSha256: D7D0AE27B92804C87ED8E72213F833775EDA1B97D448D2E5FF0FBE67CE9EBCE9
+- Architecture: arm64
+  InstallerUrl: https://raw.githubusercontent.com/nyam1003/imagine/bae032094fb7e1f72c1c6c3dcbfb951502c04df1/arm64/Imagine_2.7.0_arm64_Unicode_Full.exe
+  InstallerSha256: A7AB2F6D8581BB3DF4872694906A96B4E6FDC2F4AF95A1F019F289F9DF0B8788
+ManifestType: installer
+ManifestVersion: 1.12.0
