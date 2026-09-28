@@ -14,8 +14,8 @@ Tags:
 - 查看器
 - 照片
 - 阅读器
-Documentations:
-- DocumentLabel: 文档
-  DocumentUrl: https://imageglass.org/docs
+# Documentations:
+# - DocumentLabel: 文档
+#   DocumentUrl: https://imageglass.org/docs
 ManifestType: locale
 ManifestVersion: 1.12.0
