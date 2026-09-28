@@ -10,9 +10,6 @@ ReleaseDate: 2026-09-26
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\Caramba Switcher'
 Installers:
-- Architecture: x86
-  InstallerUrl: https://cdn.caramba-switcher.com/files/win/CarambaSwitcherProSetup-latest.exe
-  InstallerSha256: D34FF8AB2DB2B56E3B9DF3C986B67F51AB36D7316274CD876F5BD212897C9442
 - Architecture: x64
   InstallerUrl: https://cdn.caramba-switcher.com/files/win/CarambaSwitcherProSetup-latest.exe
   InstallerSha256: D34FF8AB2DB2B56E3B9DF3C986B67F51AB36D7316274CD876F5BD212897C9442
