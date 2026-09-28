@@ -10,7 +10,7 @@ PublisherSupportUrl: https://github.com/apache/maka/issues
 PackageName: Maka
 PackageUrl: https://maka.apache.org/
 License: Apache-2.0
-LicenseUrl: https://github.com/apache/maka/blob/eacfb46aa7ec93273bf468335f4270bba62d35a5/LICENSE
+LicenseUrl: https://github.com/apache/maka/blob/HEAD/LICENSE
 Copyright: Copyright (c) 2026 The Maka Authors
 ShortDescription: A local-first Agent workspace where tools, permissions, artifacts, and durable progress stay visible.
 Description: Maka is a local-first AI desktop assistant that does more than answer questions. With controlled permissions, it can inspect projects, execute tools, produce artifacts, and preserve model messages, tool calls, and durable-task progress as recoverable execution facts. Sessions, settings, and run records stay on your machine by default; you choose the model connection — a cloud API, a local model, or a compatible gateway. The same Runtime is available through the desktop app, terminal TUI, non-interactive CLI, and Headless runner.
@@ -31,6 +31,6 @@ ReleaseNotes: |-
 ReleaseNotesUrl: https://github.com/apache/maka/releases/tag/v0.2.0-dev.15.20260902
 Documentations:
 - DocumentLabel: Architecture
-  DocumentUrl: https://github.com/Maka-Agent/maka-agent/blob/main/ARCHITECTURE.md
+  DocumentUrl: https://github.com/apache/maka/blob/HEAD/ARCHITECTURE.md
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
