@@ -8,7 +8,7 @@ Scope: machine
 InstallerSwitches:
   InstallLocation: INSTALLDIR="<INSTALLPATH>"
 ProductCode: '{47B55674-69B4-4FD4-9EDA-435A794D1686}'
-ReleaseDate: 2026-06-10
+ReleaseDate: 2026-09-18
 AppsAndFeaturesEntries:
 - UpgradeCode: '{5C24165E-C0B7-4C58-9242-B168C55D0562}'
 Installers:
