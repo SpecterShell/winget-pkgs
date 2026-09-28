@@ -21,8 +21,8 @@ Installers:
     PackageDependencies:
     - PackageIdentifier: Microsoft.VCRedist.2015+.x64
 - Architecture: arm64
-  InstallerUrl: https://github.com/getsentry/sentry-cli/releases/download/3.8.0/sentry-cli-Windows-aarch64.exe
-  InstallerSha256: 174786337BF2D3CD3386C14AAB122BA3D3BBD49B98E124666B03F63F54E4104F
+  InstallerUrl: https://github.com/getsentry/sentry-cli/releases/download/3.7.0/sentry-cli-Windows-aarch64.exe
+  InstallerSha256: 170B971F2596B612ED207823AA86BC251F9ADFB687A476C9E8021339288B0747
   Dependencies:
     PackageDependencies:
     - PackageIdentifier: Microsoft.VCRedist.2015+.arm64
