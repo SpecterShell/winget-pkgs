@@ -20,6 +20,12 @@ Tags:
 - 编程
 - 聊天机器人
 - 自主智能
+ReleaseNotes: |-
+  新功能
+  - M3.1-Flash-Preview：MiniMax 最新文本模型首发接入 MiniMax Code，覆盖从 Bug 修复到完整功能开发的日常开发任务。
+  限时活动
+  - 签到双倍积分：9 月 28 日至 10 月 7 日，登录 MiniMax Code 完成每日签到可领取双倍免费积分，新老用户均可参与；积分可用于平台支持的文本及多模态模型。
+  - Token Plan 额度重置：M3.1-Flash-Preview 上线后，全体用户的 Token Plan 额度已重置。
 ReleaseNotesUrl: https://agent.minimaxi.com/docs/changelog
 PurchaseUrl: https://platform.minimaxi.com/subscribe/token-plan
 ManifestType: locale
