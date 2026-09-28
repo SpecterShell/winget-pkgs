@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
 PackageIdentifier: KIR.Szafir.Instalator
-PackageVersion: 2.0.706
+PackageVersion: 2.0.708
 PackageLocale: zh-CN
 License: 专有软件
 ShortDescription: 适用于新款 Graphite 卡的 Szafir 安装包：包含 Szafir 应用程序、CryptoCard Graphite 软件和读卡器驱动程序。

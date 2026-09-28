@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: KIR.Szafir.Instalator
-PackageVersion: 2.0.706
+PackageVersion: 2.0.708
 InstallerType: msi
 Scope: machine
 InstallerSwitches:
@@ -14,6 +14,6 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.elektronicznypodpis.pl/storage/file/core_files/2026/1/16/6bbd505922aec578f83dc8986b067067/Szafir_Instalator.msi
-  InstallerSha256: 265BA1FB3E63403025AFCE6C12598365AF0304B7F8772FCDFBC8EEFF54B65C24
+  InstallerSha256: CA7EFCB9984E29F6EACE76F25989E2583532E21F5F2840ADC1EED0EAC44EE8A3
 ManifestType: installer
 ManifestVersion: 1.12.0
