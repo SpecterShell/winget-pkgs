@@ -5,14 +5,14 @@ PackageIdentifier: DuongDieuPhap.ImageGlass.MSI
 PackageVersion: 10.0.5.825
 PackageLocale: en-US
 Publisher: Duong Dieu Phap
-PublisherUrl: https://imageglass.org/
-PublisherSupportUrl: https://imageglass.org/support
-PrivacyUrl: https://imageglass.org/privacy
+# PublisherUrl: https://imageglass.org/
+# PublisherSupportUrl: https://imageglass.org/support
+# PrivacyUrl: https://imageglass.org/privacy
 Author: Dương Diệu Pháp
 PackageName: ImageGlass (MSI)
-PackageUrl: https://imageglass.org/
+# PackageUrl: https://imageglass.org/
 License: Proprietary
-LicenseUrl: https://imageglass.org/license
+# LicenseUrl: https://imageglass.org/license
 Copyright: Copyright © 2010-2026 by Dương Diệu Pháp. All rights reserved.
 ShortDescription: A lightweight, versatile image viewer
 Description: ImageGlass is a lightweight software designed for seamless viewing of images in a clean and intuitive interface. With support for over 80 common image formats including WEBP, GIF, SVG, PNG, JXL, HEIC,... ImageGlass also offers advanced features that cater to the needs of both regular users and designers, making it the excellent tool to enhance workflow efficiency.
@@ -45,8 +45,8 @@ ReleaseNotes: |-
   Full Changelog: https://github.com/d2phap/ImageGlass/compare/10.0.4.819...10.0.5.825
 ReleaseNotesUrl: https://github.com/d2phap/ImageGlass/releases/tag/10.0.5.825
 PurchaseUrl: https://imageglass.org/pricing
-Documentations:
-- DocumentLabel: Docs
-  DocumentUrl: https://imageglass.org/docs
+# Documentations:
+# - DocumentLabel: Docs
+#   DocumentUrl: https://imageglass.org/docs
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
