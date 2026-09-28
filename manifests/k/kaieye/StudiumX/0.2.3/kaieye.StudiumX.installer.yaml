@@ -5,7 +5,7 @@ PackageIdentifier: kaieye.StudiumX
 PackageVersion: 0.2.3
 InstallerType: nullsoft
 ProductCode: 74593701-1d34-59ae-b1b1-5aca899b6987
-ReleaseDate: 2026-08-03
+ReleaseDate: 2026-09-07
 Installers:
 - Architecture: x64
   Scope: user
