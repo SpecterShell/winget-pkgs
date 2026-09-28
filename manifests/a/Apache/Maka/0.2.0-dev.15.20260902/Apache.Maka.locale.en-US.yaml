@@ -7,6 +7,7 @@ PackageLocale: en-US
 Publisher: Maka
 PublisherUrl: https://maka.apache.org/
 PublisherSupportUrl: https://github.com/apache/maka/issues
+PrivacyUrl: https://privacy.apache.org/policies/privacy-policy-public.html
 PackageName: Maka
 PackageUrl: https://maka.apache.org/
 License: Apache-2.0
