@@ -8,7 +8,7 @@ NestedInstallerType: nullsoft
 NestedInstallerFiles:
 - RelativeFilePath: IngenicoUSBDrivers_3.40_setup_SIGNED.exe
 Scope: machine
-UpgradeBehavior: install
+UpgradeBehavior: uninstallPrevious
 ProductCode: IngenicoUSBDrivers_3.40
 ReleaseDate: 2025-07-16
 ElevationRequirement: elevationRequired
