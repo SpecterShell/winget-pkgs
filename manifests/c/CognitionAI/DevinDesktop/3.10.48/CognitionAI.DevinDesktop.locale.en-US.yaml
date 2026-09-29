@@ -26,6 +26,13 @@ Tags:
 - large-language-model
 - llm
 - programming
+ReleaseNotes: |-
+  Devin Desktop
+  - New commands Devin: Save Language Server Memory Profile and Devin: Save Language Server CPU Profile save a diagnostic .zip you can send to support.
+  - Long or noisy shell commands no longer grow the Agent window’s memory with every terminal refresh, which could crash the window.
+  - New Agent sessions started without a folder pick keep every folder of a converted multi-folder workspace, instead of only the first one.
+  - Devin Desktop keeps a much smaller local settings file for accounts with many available models, and resolves user settings once per change instead of on every read. Typing, selecting text, and copy/paste no longer stall the extension host.
+  - Session list polling backs off while Devin Desktop is unfocused or the conversation dropdown is closed.
 ReleaseNotesUrl: https://docs.devin.ai/desktop/changelog
 PurchaseUrl: https://devin.ai/pricing
 Documentations:
