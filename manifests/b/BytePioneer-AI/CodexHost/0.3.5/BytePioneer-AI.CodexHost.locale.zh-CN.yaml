@@ -7,6 +7,7 @@ PackageLocale: zh-CN
 Publisher: codexhost
 PublisherUrl: https://github.com/BytePioneer-AI
 PublisherSupportUrl: https://github.com/BytePioneer-AI/codex-host/issues
+PrivacyUrl: https://github.com/BytePioneer-AI/codex-host/blob/HEAD/docs/PRIVACY.md
 Author: BytePioneer-AI
 PackageName: CodexHost
 PackageUrl: https://github.com/BytePioneer-AI/codex-host
@@ -15,7 +16,9 @@ LicenseUrl: https://github.com/BytePioneer-AI/codex-host/blob/HEAD/LICENSE
 Copyright: Copyright (c) 2026 BytePioneer-AI
 ShortDescription: 在 Codex Desktop 中直接运行 Pi 和 Claude Code 等 Agent Harness
 Description: |-
-  在 Codex Desktop 中运行 Pi 和其他 Harness
+  CodexHost 是一个独立的非官方开源项目，让 Pi、Claude Code 等 Agent Harness 在 Codex Desktop 中运行，并支持跨 Agent 协作。
+  支持通过 SSH 和官方 Codex Desktop Remote Control 使用远程主机上的 Harness。
+  CodexHost 与 OpenAI 无隶属关系，也未获得 OpenAI 的背书。
 
   我们认为 Codex Desktop 提供了目前最好的桌面开发交互体验。
   但 Codex 并不是唯一优秀的 Agent Harness，也有人偏好 Claude Code 和 Pi Agent。
