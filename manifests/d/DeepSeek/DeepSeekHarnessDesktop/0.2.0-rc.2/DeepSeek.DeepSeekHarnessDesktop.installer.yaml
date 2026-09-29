@@ -1,7 +1,7 @@
 # Created with YamlCreate.ps1 Dumplings Mod
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
-PackageIdentifier: DeepSeek.DeepSeekHarnessDesktop.Nightly
+PackageIdentifier: DeepSeek.DeepSeekHarnessDesktop
 PackageVersion: 0.2.0-rc.2
 InstallerType: nullsoft
 Scope: user

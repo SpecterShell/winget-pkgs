@@ -1,7 +1,7 @@
 # Created with YamlCreate.ps1 Dumplings Mod
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
-PackageIdentifier: DeepSeek.DeepSeekHarnessDesktop.Nightly
+PackageIdentifier: DeepSeek.DeepSeekHarnessDesktop
 PackageVersion: 0.2.0-rc.2
 PackageLocale: zh-CN
 PrivacyUrl: https://cdn.deepseek.com/policies/zh-CN/deepseek-privacy-policy.html
