@@ -7,7 +7,7 @@ PackageLocale: en-US
 Publisher: Wecode
 PublisherUrl: https://github.com/wecode-ai
 PublisherSupportUrl: https://github.com/wecode-ai/Wegent/issues
-PrivacyUrl: https://privacy.weibo.com/policy
+PrivacyUrl: https://wecode-ai.github.io/wegent-docs/docs/wegent/developer-guide/wework-telemetry#privacy-boundary
 Author: Weibo, Inc.
 PackageName: WeWork
 PackageUrl: https://github.com/wecode-ai/Wegent
