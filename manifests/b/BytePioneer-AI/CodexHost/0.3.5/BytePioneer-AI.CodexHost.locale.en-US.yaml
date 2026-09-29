@@ -6,7 +6,9 @@ PackageVersion: 0.3.5
 PackageLocale: en-US
 ShortDescription: Run Pi, Claude Code, and other Agent Harnesses directly inside Codex Desktop
 Description: |-
-  Run Pi and other Agent Harnesses inside Codex Desktop
+  CodexHost is an independent, unofficial open-source project that runs Pi, Claude Code, and other Agent Harnesses inside Codex Desktop, with cross-Agent collaboration.
+  It supports using Harnesses on remote hosts through SSH and official Codex Desktop Remote Control.
+  CodexHost is not affiliated with or endorsed by OpenAI.
 
   We believe Codex Desktop provides one of the best desktop development experiences.
   But Codex is not the only capable Agent Harness. Some developers prefer Claude Code or Pi Agent.
@@ -20,8 +22,6 @@ Description: |-
   Ask @pi to investigate why this test fails intermittently.
   Ask @omp to implement this feature while I continue working on the documentation.
   codexhost creates a separate Native Session for the target Harness. The delegated session appears in the Codex Desktop conversation list, where you can open it, inspect progress, or continue the conversation.
-
-  CodexHost is not affiliated with or endorsed by OpenAI.
 Tags:
 - agent
 - claude-code
