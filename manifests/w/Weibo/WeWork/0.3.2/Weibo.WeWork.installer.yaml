@@ -23,5 +23,6 @@ Installers:
     Custom: /ALLUSERS
   InstallationMetadata:
     DefaultInstallLocation: '%ProgramFiles%\WeWork'
+  ElevationRequirement: elevationRequired
 ManifestType: installer
 ManifestVersion: 1.12.0
