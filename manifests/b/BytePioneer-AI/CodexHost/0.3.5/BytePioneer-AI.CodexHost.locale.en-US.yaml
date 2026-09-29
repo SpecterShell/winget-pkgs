@@ -20,6 +20,8 @@ Description: |-
   Ask @pi to investigate why this test fails intermittently.
   Ask @omp to implement this feature while I continue working on the documentation.
   codexhost creates a separate Native Session for the target Harness. The delegated session appears in the Codex Desktop conversation list, where you can open it, inspect progress, or continue the conversation.
+
+  CodexHost is not affiliated with or endorsed by OpenAI.
 Tags:
 - agent
 - claude-code
