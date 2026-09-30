@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: tigerowo.InfiniteCanvas
-PackageVersion: 0.5.5
+PackageVersion: 0.8.0
 PackageLocale: zh-CN
 Publisher: tigerowo
 PublisherUrl: https://github.com/tigerowo
@@ -21,17 +21,23 @@ Tags:
 - 视频生成
 - 音频生成
 ReleaseNotes: |-
-  新增 MiniMax-H3 官方传参协议。
-  新增 OpenAI 兼容 Chat Completions 生图模式。
-  新增 Gemini 原生文本、图片、视频和 TTS 协议支持。
-  修复 3D 导演台角色标签在系统显示缩放下位置偏移和尺寸异常的问题。
-  修复未登录生图结果使用 Base64 返回时刷新后图片丢失的问题。
-  修复 Agent 画布媒体引用同步及节点删除后的文件清理问题。
-  修复 Grok2API TTS 协议参数为最新。
-  未登录可在后台允许时配置个人 S3/R2 和 WebDAV。
-  API 模型渠道细分，自动填充 API URL。
-  私有云存储媒体改为按需分段流式读取。
-ReleaseNotesUrl: https://github.com/tigerowo/infinite-canvas/releases/tag/v0.5.5
+  Features
+  - 新增 open AI canvas RunningHub 与 ComfyUI 工作流渠道
+  - 工作流支持参数拉取、逐条启停、字段映射、拓扑与 API JSON
+  - 新增 ComfyUI Bridge，支持设备注册、工作流发现、任务恢复和本机预览播放
+  - Codex Agent 升级最新
+  - 我的素材，素材库增加分类，素材页面与画布侧栏支持按分类、标签筛选
+  What's Changed
+  - 修复 Agent 创建视频节点未按所选尺寸比例初始化问题
+  - 修复画布 @ 的引用未正确显示
+  - 修复 Grok2API 视频轮询嵌套 url 未解析的问题
+  - 修复方舟 Agent Plan 无法拉取模型列表
+  - 画布文本节点内容可用滚轮上下浏览
+  - 修复切换账号退出，还残留配置没有清理干净问题
+  - 修复后台限制可用模型未正确显示的问题
+  - 优化 AI 日志只记录请求和结束
+  Full Changelog: https://github.com/tigerowo/infinite-canvas/compare/v0.7.1...v0.8.0
+ReleaseNotesUrl: https://github.com/tigerowo/infinite-canvas/releases/tag/v0.8.0
 Documentations:
 - DocumentLabel: 功能介绍
   DocumentUrl: https://github.com/tigerowo/infinite-canvas/blob/HEAD/docs/overview/features.md

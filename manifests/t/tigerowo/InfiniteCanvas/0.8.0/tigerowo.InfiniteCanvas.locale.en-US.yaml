@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
 PackageIdentifier: tigerowo.InfiniteCanvas
-PackageVersion: 0.5.5
+PackageVersion: 0.8.0
 PackageLocale: en-US
 ShortDescription: An open-source workspace for image, video, and audio creation.
 Description: Infinite Canvas brings canvas composition, AI image, video, and audio generation, reference-image editing, a chat assistant, a prompt library, and asset management into one interface for exploring visual ideas and iterating on images.
