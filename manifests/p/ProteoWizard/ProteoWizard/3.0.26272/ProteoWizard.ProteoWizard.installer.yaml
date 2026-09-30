@@ -2,18 +2,18 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: ProteoWizard.ProteoWizard
-PackageVersion: 3.0.26267
+PackageVersion: 3.0.26272
 InstallerType: wix
 Scope: machine
 InstallerSwitches:
   InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
-ProductCode: '{046F60A1-08B4-4060-AB2F-350CD582CFF0}'
-ReleaseDate: 2026-09-25
+ProductCode: '{DEED3F57-9EB8-4ABB-A8CF-D127E919FD5F}'
+ReleaseDate: 2026-09-29
 AppsAndFeaturesEntries:
 - UpgradeCode: '{644795C6-012A-49B7-A47F-E46E164D3689}'
 Installers:
 - Architecture: x64
-  InstallerUrl: https://mc-tca-01.s3.us-west-2.amazonaws.com/ProteoWizard/bt83/4187797/pwiz-setup-3.0.26267.699dd48-x86_64.msi
-  InstallerSha256: D63AF749AE24DDAC3F19DE0FADBAED6350B708A053DC50FB2E6249B531968D77
+  InstallerUrl: https://mc-tca-01.s3.us-west-2.amazonaws.com/ProteoWizard/bt83/4193616/pwiz-setup-3.0.26272.10aac2d-x86_64.msi
+  InstallerSha256: D8370335792A3D74BE9B7384C724AE6E37953EF74B2BFB4F31F5E4FCEBB74CF4
 ManifestType: installer
 ManifestVersion: 1.12.0
