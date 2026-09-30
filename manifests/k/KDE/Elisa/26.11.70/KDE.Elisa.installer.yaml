@@ -10,14 +10,14 @@ ReleaseDate: 2026-09-30
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4606-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 680B07754BDCF048DF085479C5EC7F08062D1C7A63C1E1BF5EB4D6D92EE3CFC2
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4610-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: ED12CDD4FA646A7D9A118018DFE06DFE8F90382E3DDB195EDB340FF3DE4BC0AA
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4606-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 680B07754BDCF048DF085479C5EC7F08062D1C7A63C1E1BF5EB4D6D92EE3CFC2
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4610-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: ED12CDD4FA646A7D9A118018DFE06DFE8F90382E3DDB195EDB340FF3DE4BC0AA
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
