@@ -20,6 +20,16 @@ Tags:
 - 编程
 - 聊天机器人
 - 自主智能
+ReleaseNotes: |-
+  MiniMax Code 产品焕新
+  - 全新视觉体验：品牌与产品视觉焕新，优化交互细节，让日常使用更加顺畅。
+  - Agent 能力升级：优化 Computer Use、Mini App、自定义界面外观、Git Graph 面板及 Agent 实时执行动态等体验。
+  - M Plan 上线：承接并拓展 Token Plan 的订阅能力，订阅价格与文本使用额度保持不变，部分档位支持包括 H3 在内的 MiniMax 全系列模型。
+
+  限时活动
+  - 首月五折：即日起至 10 月 14 日，新订阅或升级为 M Plan 的用户首月享五折，次月起按原价续订。
+  - 国庆七日不限量：10 月 1 日至 7 日，所有已订阅用户在 MiniMax Code 内使用 M3.1-Flash-Preview 不限量。
+  - 老用户积分回馈：本次更新发布后 24 小时内，为所有 Token Plan 用户发放额外积分福利。
 ReleaseNotesUrl: https://agent.minimaxi.com/docs/changelog
 PurchaseUrl: https://platform.minimaxi.com/subscribe/token-plan
 ManifestType: locale
