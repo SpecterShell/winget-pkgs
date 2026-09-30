@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Argente.DriveAnalyzer
-PackageVersion: 1.0.1.1
+PackageVersion: 1.0.1.2
 InstallerType: inno
 Scope: machine
 InstallerSwitches:
@@ -14,12 +14,12 @@ ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
   InstallerUrl: https://argenteutilities.com/en/download/driveanalyzerx86
-  InstallerSha256: 32E3A4EC187A61A97EA36BF6D0104A281D5A739E47C6EF6E32BD6A1ED44611B4
+  InstallerSha256: E6A80B2CDB668B5BBBDA9AD567AB6A5BE31068FB39FF85F3343D6ACF0E4B17B9
 - Architecture: x64
   InstallerUrl: https://argenteutilities.com/en/download/driveanalyzerx64
-  InstallerSha256: 582FED3B2A63C2848E9E01002767C082C9B7FD56724FA1DE1B1DC21A152FAFB0
+  InstallerSha256: D44EF40AD2B68AD9AE8C307090D6F46EDF5F45C1BC122198E5F8C7066BF35DA0
 - Architecture: arm64
   InstallerUrl: https://argenteutilities.com/en/download/driveanalyzerarm64
-  InstallerSha256: 3F7EF8D12E68E8CAE468F14FB605AA35ABFD876F510EF5C013096626C5F108D9
+  InstallerSha256: FEC2239687788A9E2165D2B1BED809846C934207A85A0F323984E89CB815F59D
 ManifestType: installer
 ManifestVersion: 1.12.0
