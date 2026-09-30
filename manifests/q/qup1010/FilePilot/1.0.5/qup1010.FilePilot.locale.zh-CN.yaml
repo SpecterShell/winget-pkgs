@@ -7,6 +7,7 @@ PackageLocale: zh-CN
 Publisher: filepilot
 PublisherUrl: https://github.com/qup1010
 PublisherSupportUrl: https://github.com/qup1010/FilePilot/issues
+PrivacyUrl: https://github.com/qup1010/FilePilot/blob/HEAD/PRIVACY.md
 Author: qup1010
 PackageName: FilePilot
 PackageUrl: https://github.com/qup1010/FilePilot
