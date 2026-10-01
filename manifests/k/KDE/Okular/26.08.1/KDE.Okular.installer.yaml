@@ -73,18 +73,18 @@ FileExtensions:
 - xpm
 - xps
 ProductCode: Okular
-ReleaseDate: 2026-09-15
+ReleaseDate: 2026-10-01
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/graphics/okular/release-26.08/windows/okular-release_26.08-7919-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 6E8F216F3FFF9ECFB94D6F2F812492AF392F6FC1F6CC58768CD1A90C2AEECE45
+  InstallerUrl: https://cdn.kde.org/ci-builds/graphics/okular/release-26.08/windows/okular-release_26.08-8105-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 1A4685340666D818AC38400431A08BB3BAA4C27C8900C0DD5CCE76E03E03EC7A
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/graphics/okular/release-26.08/windows/okular-release_26.08-7919-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 6E8F216F3FFF9ECFB94D6F2F812492AF392F6FC1F6CC58768CD1A90C2AEECE45
+  InstallerUrl: https://cdn.kde.org/ci-builds/graphics/okular/release-26.08/windows/okular-release_26.08-8105-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 1A4685340666D818AC38400431A08BB3BAA4C27C8900C0DD5CCE76E03E03EC7A
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
