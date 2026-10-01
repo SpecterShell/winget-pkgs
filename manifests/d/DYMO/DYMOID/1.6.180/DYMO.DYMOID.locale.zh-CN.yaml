@@ -1,0 +1,10 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: DYMO.DYMOID
+PackageVersion: 1.6.180
+PackageLocale: zh-CN
+License: 专有软件
+ShortDescription: DYMO ID 软件让设计和打印标签以及将文件传输至您的 XTL 或 Rhino 6000+ 标签机变得前所未有的简单。
+ManifestType: locale
+ManifestVersion: 1.12.0
