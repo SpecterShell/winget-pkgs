@@ -9,7 +9,7 @@ PublisherUrl: https://github.com/tigerowo
 PublisherSupportUrl: https://github.com/tigerowo/infinite-canvas/issues
 PackageName: 无限画布
 PackageUrl: https://github.com/tigerowo/infinite-canvas
-License: MIT
+License: AGPL-3.0
 LicenseUrl: https://github.com/tigerowo/infinite-canvas/blob/HEAD/LICENSE
 Copyright: Copyright (c) 2026 tigerowo
 ShortDescription: 面向图像、视频和音频创作的开源工作台。
