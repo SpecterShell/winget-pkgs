@@ -1,0 +1,28 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Vita3K.Vita3K
+PackageVersion: 0.2.1.4111
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: Vita3K.exe
+  PortableCommandAlias: vita3k
+FileExtensions:
+- bin
+- pkg
+- pup
+- rif
+- vpk
+- zip
+Dependencies:
+  PackageDependencies:
+  - PackageIdentifier: Microsoft.VCRedist.2015+.x64
+ReleaseDate: 2026-10-02
+ArchiveBinariesDependOnPath: true
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/Vita3K/Vita3K/releases/download/continuous/windows-latest.zip
+  InstallerSha256: 26C33148E033A413401AB4C6EDB262502D5B0818E2595604799084F9C207A225
+ManifestType: installer
+ManifestVersion: 1.12.0
