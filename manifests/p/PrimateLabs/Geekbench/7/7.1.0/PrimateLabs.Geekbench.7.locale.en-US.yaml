@@ -10,7 +10,7 @@ PublisherSupportUrl: https://support.primatelabs.com/
 PrivacyUrl: https://www.primatelabs.com/legal/privacy.html
 Author: Primate Labs Inc.
 PackageName: Geekbench 7
-PackageUrl: https://www.geekbench.com/
+# PackageUrl: https://www.geekbench.com/
 License: Proprietary
 LicenseUrl: https://www.primatelabs.com/legal/eula-v7.html
 Copyright: © 2004-2026 Primate Labs Inc.
