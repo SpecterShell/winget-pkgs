@@ -10,7 +10,7 @@ PublisherSupportUrl: https://github.com/EthanYoQ/AI-Novel-Writer/issues
 PackageName: AI小说作家
 PackageUrl: https://github.com/EthanYoQ/AI-Novel-Writer
 License: GPL-3.0
-LicenseUrl: https://github.com/EthanYoQ/AI-Novel-Writer/blob/master/LICENSE
+LicenseUrl: https://github.com/EthanYoQ/AI-Novel-Writer/blob/HEAD/LICENSE
 ShortDescription: 本地优先的 AI 长篇小说创作工作室。
 Description: AI小说作家是一款本地优先的 AI 长篇小说创作软件，把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可追溯的写作流程。用户自行配置模型，项目资料保存在本机，支持 Ollama 等本地与在线模型。
 Tags:
