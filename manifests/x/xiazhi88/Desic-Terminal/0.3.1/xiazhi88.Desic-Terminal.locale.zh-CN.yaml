@@ -1,0 +1,17 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
+
+PackageIdentifier: xiazhi88.Desic-Terminal
+PackageVersion: 0.3.1
+PackageLocale: zh-CN
+ShortDescription: 开源的 AI 量化交易工作台（对接 OKX）。
+Description: 对接 OKX 的开源 AI 量化交易工作台。Windows 与 macOS 桌面应用：看盘、下单、AI 交易助手、带风控闸门的 AI 自动交易与 Python 策略回测，共用一份实时状态与审计链路。
+Tags:
+- okx
+- 交易终端
+- 人工智能
+- 加密货币
+- 自动交易
+- 量化交易
+ManifestType: locale
+ManifestVersion: 1.12.0
