@@ -22,5 +22,10 @@ Tags:
 - selection
 - translate
 - translation
+ReleaseNotes: |-
+  Changelog
+  - fix: harden selection forwarding lifecycle (98159f3)
+  - chore: update ci and test config schema expectations (1c40436)
+ReleaseNotesUrl: https://github.com/k4if3ng/select-bridge/releases/tag/v1.2.2
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
