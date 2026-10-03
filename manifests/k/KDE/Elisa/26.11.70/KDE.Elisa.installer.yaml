@@ -6,18 +6,18 @@ PackageVersion: 26.11.70
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: Elisa
-ReleaseDate: 2026-09-30
+ReleaseDate: 2026-10-03
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4606-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 680B07754BDCF048DF085479C5EC7F08062D1C7A63C1E1BF5EB4D6D92EE3CFC2
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4621-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: C0EF10CC702A6E866F53181EF2F493381C59967171230FA8E46228741956103E
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4606-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 680B07754BDCF048DF085479C5EC7F08062D1C7A63C1E1BF5EB4D6D92EE3CFC2
+  InstallerUrl: https://cdn.kde.org/ci-builds/multimedia/elisa/master/windows/elisa-master-4621-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: C0EF10CC702A6E866F53181EF2F493381C59967171230FA8E46228741956103E
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
