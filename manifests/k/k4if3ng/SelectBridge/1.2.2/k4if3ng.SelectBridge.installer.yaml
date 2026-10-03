@@ -8,6 +8,7 @@ Scope: user
 ProductCode: '{8A6DCE91-54BC-4E4A-A09D-6ADFD7F41430}_is1'
 InstallationMetadata:
   DefaultInstallLocation: '%LocalAppData%\Programs\SelectBridge'
+ReleaseDate: 2026-09-07
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/k4if3ng/select-bridge/releases/download/v1.2.2/SelectBridge-1.2.2-windows-x64-setup.exe
