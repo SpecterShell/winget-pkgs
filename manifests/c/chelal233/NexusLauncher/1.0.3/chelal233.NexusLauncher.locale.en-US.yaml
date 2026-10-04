@@ -6,6 +6,7 @@ PackageVersion: 1.0.3
 PackageLocale: en-US
 Publisher: Nexus maintainers
 PublisherUrl: https://github.com/chelal233
+PublisherSupportUrl: https://github.com/chelal233/dsh-nexus
 PackageName: Nexus Launcher
 PackageUrl: https://github.com/chelal233/dsh-nexus
 License: MIT
