@@ -31,5 +31,6 @@ Description: |-
 Tags:
 - pdf
 - 翻译
+ReleaseNotesUrl: https://github.com/wxyhgk/retain-pdf/releases/tag/v4.2.5
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
