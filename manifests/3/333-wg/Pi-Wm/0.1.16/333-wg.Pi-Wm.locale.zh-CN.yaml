@@ -1,7 +1,7 @@
 # Created with YamlCreate.ps1 Dumplings Mod
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
-PackageIdentifier: 333-wg.PiWm
+PackageIdentifier: 333-wg.Pi-Wm
 PackageVersion: 0.1.16
 PackageLocale: zh-CN
 Publisher: Pi-Wm
