@@ -8,7 +8,7 @@ Scope: machine
 FileExtensions:
 - akp
 ProductCode: '{76BAA639-DF77-4DD0-B4EF-4FAE7F8895C8}_is1'
-ReleaseDate: 2026-08-30
+ReleaseDate: 2026-10-02
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\Asset Keeper Pro'
 Installers:
