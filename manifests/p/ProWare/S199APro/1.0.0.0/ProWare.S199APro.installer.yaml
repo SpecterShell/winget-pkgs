@@ -8,12 +8,12 @@ Scope: machine
 FileExtensions:
 - s1p
 ProductCode: '{353E987C-B8AD-4CE1-AB7B-1F954699BE52}_is1'
-ReleaseDate: 2026-08-30
+ReleaseDate: 2026-10-02
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles(x86)%\S199A Pro'
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.proware-cpa.biz/demos/s199apro/setup.exe
-  InstallerSha256: 7667FF5D8F4B19A8C1E9E6AB6B293330530F5157E1CA7A97086736BC0DCFCCB0
+  InstallerSha256: 4EE4587091CC13A6173DE5386FCCF95F002A130D5D9132E63CCB486E7E680B93
 ManifestType: installer
 ManifestVersion: 1.12.0
