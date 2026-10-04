@@ -14,6 +14,6 @@ InstallationMetadata:
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.proware-cpa.biz/demos/akpro/setup.exe
-  InstallerSha256: 9C6EAA8EFA16A875C7B85B7DB4BDC5B621C975D042CD088085CD9B70824120B1
+  InstallerSha256: 0AADBC5D4102C393B830EB3EE243523B482A0F8A6E77A1BD07EFD967B3A051BF
 ManifestType: installer
 ManifestVersion: 1.12.0
