@@ -4,9 +4,8 @@
 PackageIdentifier: EPOS.EPOSConnect
 PackageVersion: 8.7.0.52713
 PackageLocale: zh-CN
-PublisherUrl: https://www.eposaudio.com/zh/cn
-PublisherSupportUrl: https://www.eposaudio.com/zh/cn/support
-PrivacyUrl: https://www.eposaudio.com/zh/cn/legal/privacy-notice
+PublisherUrl: https://www.eposaudio.com/zh
+PublisherSupportUrl: https://www.eposaudio.com/zh-cn/支持/
 PackageUrl: https://www.eposaudio.com/zh/cn/software/epos-connect
 License: 专有软件
 ShortDescription: 使用最新的固件更新和个性化的 EPOS 音频设备设置来确保其流畅运行并实现最高工作效率
