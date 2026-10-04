@@ -8,12 +8,12 @@ Scope: machine
 FileExtensions:
 - pfs
 ProductCode: '{2AD9B396-542E-43C0-A4B5-14E3FAA1609D}_is1'
-ReleaseDate: 2026-08-30
+ReleaseDate: 2026-10-02
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles(x86)%\PFS MultiClient'
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.proware-cpa.biz/demos/pfsmc/setup.exe
-  InstallerSha256: 1F57AEA0E37461E0FEF22A0C6EBEC02BED7D3CF7CB1509FEF90B0A5220DE6E29
+  InstallerSha256: DF96F9FFE5DF139CE56E641052716CE11A0868756E384B82369394080909B5F2
 ManifestType: installer
 ManifestVersion: 1.12.0
