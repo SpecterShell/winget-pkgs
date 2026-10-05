@@ -6,11 +6,11 @@ PackageVersion: 1.17.0.0004
 PackageLocale: en-US
 Publisher: ABB S.p.A. - ABB SACE Division
 PublisherUrl: https://global.abb/
-PublisherSupportUrl: https://new.abb.com/contact-centers
-PrivacyUrl: https://new.abb.com/privacy-policy
+# PublisherSupportUrl: https://new.abb.com/contact-centers
+# PrivacyUrl: https://new.abb.com/privacy-policy
 Author: ABB Ltd
 PackageName: e-Design
-PackageUrl: https://new.abb.com/low-voltage/support/software/e-design
+# PackageUrl: https://new.abb.com/low-voltage/support/software/e-design
 License: Proprietary
 LicenseUrl: https://library.e.abb.com/public/a4c9c5297ecd337ec1257e0a005dfc82/End%20User%20License%20Agreement.pdf
 Copyright: © 1995-2026 ABB
@@ -21,8 +21,8 @@ Description: |-
   e-Design makes it possible to design an electrical system, optimizing production times to the maximum, thanks to the ability to access a product portfolio to be used in synergy through intuitive and simple functionalities.
   The suite’s appealing and brand-new look, combined with a general optimization of the functionalities that have always characterised ABB software, make it an innovative tool in step with the technologies currently available in the sector.
 Documentations:
-- DocumentLabel: Resources
-  DocumentUrl: https://new.abb.com/low-voltage/support/software/e-design/resources
+# - DocumentLabel: Resources
+#   DocumentUrl: https://new.abb.com/low-voltage/support/software/e-design/resources
 - DocumentLabel: User Manual
   DocumentUrl: https://search.abb.com/library/Download.aspx?DocumentID=9AKK106103A3850&LanguageCode=en&Action=Launch
 ManifestType: defaultLocale
