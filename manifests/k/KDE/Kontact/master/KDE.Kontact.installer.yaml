@@ -6,17 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: Kontact
+ReleaseDate: 2026-10-05
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/pim/kontact/master/windows/kontact-master-2573-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: AE68F1242DF0515F153080D7F363FA89F925988E546451F89C4818F6F075E1AE
+  InstallerUrl: https://cdn.kde.org/ci-builds/pim/kontact/master/windows/kontact-master-2861-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: BAE9966E49C2023A6817F441B8F3A7ACE1160C0BFFFA1D23450D2BD2D9E2E21F
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/pim/kontact/master/windows/kontact-master-2573-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: AE68F1242DF0515F153080D7F363FA89F925988E546451F89C4818F6F075E1AE
+  InstallerUrl: https://cdn.kde.org/ci-builds/pim/kontact/master/windows/kontact-master-2861-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: BAE9966E49C2023A6817F441B8F3A7ACE1160C0BFFFA1D23450D2BD2D9E2E21F
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
