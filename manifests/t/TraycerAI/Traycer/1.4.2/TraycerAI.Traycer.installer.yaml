@@ -1,0 +1,28 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: TraycerAI.Traycer
+PackageVersion: 1.4.2
+InstallerType: nullsoft # electron-builder
+ProductCode: eddc90b0-6c7b-58c9-91ee-31cff2101ae3
+ReleaseDate: 2026-10-01
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/traycerai/traycer/releases/download/desktop-v1.4.2/traycer-desktop-windows-x64.exe
+  InstallerSha256: 74760BA7ED0FD0A6FBCDB007C7F2CC650972F771FEA40466F4E5EAF84A77692A
+  InstallerSwitches:
+    Custom: /currentuser
+  InstallationMetadata:
+    DefaultInstallLocation: '%LocalAppData%\Programs\Traycer'
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/traycerai/traycer/releases/download/desktop-v1.4.2/traycer-desktop-windows-x64.exe
+  InstallerSha256: 74760BA7ED0FD0A6FBCDB007C7F2CC650972F771FEA40466F4E5EAF84A77692A
+  InstallerSwitches:
+    Custom: /allusers
+  ElevationRequirement: elevatesSelf
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%\Traycer'
+ManifestType: installer
+ManifestVersion: 1.12.0
