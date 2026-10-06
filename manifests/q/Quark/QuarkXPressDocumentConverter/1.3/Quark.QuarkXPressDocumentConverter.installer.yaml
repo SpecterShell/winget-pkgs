@@ -13,6 +13,7 @@ InstallerSwitches:
 Dependencies:
   PackageDependencies:
   - PackageIdentifier: Microsoft.VCRedist.2015+.x64
+  - PackageIdentifier: Quark.QuarkUpdate
 ProductCode: '{B9CB6B1B-0C6D-4D28-87FD-CE5EDE953473}'
 AppsAndFeaturesEntries:
 - UpgradeCode: '{5133556A-5024-4BB0-BFE4-06A239170970}'
