@@ -30,7 +30,7 @@ Installers:
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://github.com/traycerai/traycer/releases/download/desktop-v1.4.2/traycer-desktop-windows-x64.msi
-  InstallerSha256: 74760BA7ED0FD0A6FBCDB007C7F2CC650972F771FEA40466F4E5EAF84A77692A
+  InstallerSha256: BD7BFE2AB0F6CB9C0526D5472238FE540B71AEE29D66D6E120B5C9933BEBFACA
   InstallerSwitches:
     InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
   ProductCode: '{29851CFE-6A34-474D-BB46-B94805291829}'
