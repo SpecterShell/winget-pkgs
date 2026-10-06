@@ -24,5 +24,22 @@ Installers:
   ElevationRequirement: elevatesSelf
   InstallationMetadata:
     DefaultInstallLocation: '%ProgramFiles%\Reliant'
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://downloads.reliantlabs.io/Reliant-1.7.16-win-arm64.exe
+  InstallerSha256: 9BCC47D30E09A2685677868F5C674766C39D06277A63A68F67E4300432BEEDA5
+  InstallerSwitches:
+    Custom: /currentuser
+  InstallationMetadata:
+    DefaultInstallLocation: '%LocalAppData%\Programs\Reliant'
+- Architecture: arm64
+  Scope: machine
+  InstallerUrl: https://downloads.reliantlabs.io/Reliant-1.7.16-win-arm64.exe
+  InstallerSha256: 9BCC47D30E09A2685677868F5C674766C39D06277A63A68F67E4300432BEEDA5
+  InstallerSwitches:
+    Custom: /allusers
+  ElevationRequirement: elevatesSelf
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%\Reliant'
 ManifestType: installer
 ManifestVersion: 1.12.0
