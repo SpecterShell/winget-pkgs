@@ -22,6 +22,9 @@ Installers:
   InstallerSha256: 7249A55B36ABEE707B50B095BF11434C853170C42ABDE38EB21E3FDAD306597E
   InstallerSwitches:
     InstallLocation: INSTALLLOCATION="<INSTALLPATH>"
+  Dependencies:
+    PackageDependencies:
+    - PackageIdentifier: Microsoft.VCRedist.2015+.x86
   ProductCode: '{25B9F9A3-4177-4764-90B2-C6A3B03FD34A}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{D1B37831-C9FB-4560-8844-4F3CC47FB472}'
