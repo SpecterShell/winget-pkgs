@@ -3,26 +3,38 @@
 
 PackageIdentifier: TraycerAI.Traycer
 PackageVersion: 1.4.2
-InstallerType: nullsoft # electron-builder
-ProductCode: eddc90b0-6c7b-58c9-91ee-31cff2101ae3
 ReleaseDate: 2026-10-01
 Installers:
 - Architecture: x64
+  InstallerType: nullsoft # electron-builder
   Scope: user
   InstallerUrl: https://github.com/traycerai/traycer/releases/download/desktop-v1.4.2/traycer-desktop-windows-x64.exe
   InstallerSha256: 74760BA7ED0FD0A6FBCDB007C7F2CC650972F771FEA40466F4E5EAF84A77692A
   InstallerSwitches:
     Custom: /currentuser
+  ProductCode: eddc90b0-6c7b-58c9-91ee-31cff2101ae3
   InstallationMetadata:
     DefaultInstallLocation: '%LocalAppData%\Programs\Traycer'
 - Architecture: x64
+  InstallerType: nullsoft # electron-builder
   Scope: machine
   InstallerUrl: https://github.com/traycerai/traycer/releases/download/desktop-v1.4.2/traycer-desktop-windows-x64.exe
   InstallerSha256: 74760BA7ED0FD0A6FBCDB007C7F2CC650972F771FEA40466F4E5EAF84A77692A
   InstallerSwitches:
     Custom: /allusers
+  ProductCode: eddc90b0-6c7b-58c9-91ee-31cff2101ae3
   ElevationRequirement: elevatesSelf
   InstallationMetadata:
     DefaultInstallLocation: '%ProgramFiles%\Traycer'
+- Architecture: x64
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://github.com/traycerai/traycer/releases/download/desktop-v1.4.2/traycer-desktop-windows-x64.msi
+  InstallerSha256: 74760BA7ED0FD0A6FBCDB007C7F2CC650972F771FEA40466F4E5EAF84A77692A
+  InstallerSwitches:
+    InstallLocation: APPLICATIONFOLDER="<INSTALLPATH>"
+  ProductCode: '{29851CFE-6A34-474D-BB46-B94805291829}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{F6908894-8D90-5099-9F69-1C2E3E7922AE}'
 ManifestType: installer
 ManifestVersion: 1.12.0
