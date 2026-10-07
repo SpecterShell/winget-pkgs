@@ -21,6 +21,8 @@ Installers:
   Scope: machine
   InstallerUrl: https://github.com/readwiseio/reader-desktop-releases/releases/download/reader-desktop-v0.1.3269/Reader_0.1.3269_x64_en-US.msi
   InstallerSha256: A2BB061F01A312A54825ED77B7E6CD064BB51C4514E21F96C0E02463D148F33D
+  InstallerSwitches:
+    InstallLocation: INSTALLDIR="<INSTALLPATH>"
   ProductCode: '{26BE7BF6-877D-4DFD-808A-602556F1109F}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{8C88C1AD-4BA2-5A3C-9E5F-45B76A862470}'
