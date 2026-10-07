@@ -14,9 +14,13 @@ LicenseUrl: https://github.com/sevensir888/codex-command-center/blob/HEAD/LICENS
 ShortDescription: A local desktop control center for organizing Codex projects, engineering tasks, sessions, Git changes, Skills, and MCP configuration
 Description: |-
   Codex Command Center is a Windows-first, local-first desktop workspace for organizing Codex-based engineering work across projects, tasks, sessions, Git changes, Skills, and MCP configuration.
+
   Codex does the reasoning, editing, commands, and tests. Codex Command Center keeps the surrounding engineering workflow understandable and resumable.
 Tags:
 - codex
+- git
+- mcp
+- project-management
 ReleaseNotes: |-
   Codex Command Center v0.1.1
   Codex Command Center v0.1.1 is a focused reliability and maintenance update for the Windows desktop application.
