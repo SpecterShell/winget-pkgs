@@ -3,14 +3,8 @@
 
 PackageIdentifier: Qingfeng.HeyboxWow
 PackageVersion: 2.0.13
-InstallerType: exe
+InstallerType: nullsoft
 Scope: machine
-InstallModes:
-- interactive
-- silentWithProgress
-InstallerSwitches:
-  Silent: update
-  SilentWithProgress: update
 UpgradeBehavior: install
 ProductCode: e87df3d8-3e5c-5367-8ffd-a8367ca20271
 ReleaseDate: 2026-09-30
