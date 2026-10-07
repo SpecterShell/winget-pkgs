@@ -1,0 +1,43 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: ArtCraft.PhotoCraft
+PackageVersion: 0.2.0
+InstallerType: wix
+Scope: machine
+InstallerSwitches:
+  InstallLocation: INSTALLFOLDER="<INSTALLPATH>"
+UpgradeBehavior: install
+FileExtensions:
+- avif
+- bmp
+- exr
+- gif
+- hdr
+- ico
+- jpeg
+- jpg
+- pcraft
+- png
+- psb
+- psd
+- qoi
+- tga
+- tif
+- tiff
+- webp
+ReleaseDate: 2026-10-05
+AppsAndFeaturesEntries:
+- UpgradeCode: '{D9660F32-2D0A-4ABE-B73D-17BE25F1542C}'
+ElevationRequirement: elevationRequired
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/storytold/photocraft/releases/download/v0.2.0/photocraft-0.2.0-windows-x64.msi
+  InstallerSha256: 9F7CB9025C06FD1B15899B8364B8A60FF28EE7B4EE5DEF869AA248CF0DA67750
+  ProductCode: '{9DC6461B-A3ED-4B40-9CEE-754295B7AB99}'
+- Architecture: x86
+  InstallerUrl: https://github.com/storytold/photocraft/releases/download/v0.2.0/photocraft-0.2.0-windows-x86.msi
+  InstallerSha256: 602C4666050D001FFBD9D4A73EABBBD1F3B01DB6806535C6C9F8CA2B2D76C100
+  ProductCode: '{87301A2E-4463-4A7B-A84E-E6E4134B267D}'
+ManifestType: installer
+ManifestVersion: 1.12.0

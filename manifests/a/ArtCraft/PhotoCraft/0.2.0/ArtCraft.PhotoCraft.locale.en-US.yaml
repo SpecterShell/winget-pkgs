@@ -1,0 +1,114 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: ArtCraft.PhotoCraft
+PackageVersion: 0.2.0
+PackageLocale: en-US
+Publisher: Learning Machines LLC
+PublisherUrl: https://getartcraft.com/
+PublisherSupportUrl: https://getartcraft.com/support
+Author: Learning Machines LLC
+PackageName: PhotoCraft
+PackageUrl: https://getartcraft.com/apps/photocraft
+License: MIT OR Apache-2.0
+LicenseUrl: https://github.com/storytold/photocraft/blob/HEAD/LICENSE-MIT
+Copyright: Copyright (c) 2026 ArtCraft Team and the PhotoCraft contributors
+ShortDescription: An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust
+Description: |-
+  An open-source, clean-room reimplementation of Adobe Photoshop, rebuilt in pure Rust.
+  Layers, masks, adjustment layers, layer styles, type, vectors, brushes and real PSD files, in a native app written entirely in Rust. Open source, offline, and yours.
+
+  34 tools
+  Move · Rectangular and Elliptical Marquee · Lasso · Polygonal Lasso · Magic Wand · Quick Selection · Object Selection · Crop · Eyedropper · Brush · Pencil · Mixer Brush · Color Replacement · Eraser · Clone Stamp · Healing Brush · Spot Healing · History Brush · Gradient · Paint Bucket · Blur · Sharpen · Smudge · Dodge · Burn · Sponge · Pen · Path Selection · Type · five Shape tools · Hand · Zoom
+
+  A real brush engine
+  Shape Dynamics, Scattering, Texture, Dual Brush, Color Dynamics, Transfer, Brush Pose, Wet Edges, Build-up and Smoothing (including Pulled String), driven by pen pressure, tilt, rotation and direction. Brush presets, Define Brush from Selection, and deterministic, replayable strokes.
+
+  Layers, done properly
+  Groups, clipping masks, pixel and vector masks, fill layers (solid, gradient and pattern), adjustment layers, live smart objects with smart filters and lossless transforms and warps, multi-layer selection with align, distribute and link, alpha channels and Quick Mask, 27 blend modes, opacity and fill, locks, colour labels, layer filters, merge, flatten, rasterize, Layer via Copy/Cut, Paste Into.
+
+  Any colour, any depth
+  RGB, Grayscale, CMYK and Lab documents at 8, 16 and 32 bits per channel. Bit depth and colour model are runtime data, so every tool works at every depth.
+  Real ICC colour management in pure Rust: embedded profiles, Assign and Convert to Profile with all four rendering intents and black point compensation, soft proofing and Gamut Warning on the GPU.
+
+  Formats
+  PSD and PSB, plus PNG, JPEG, TIFF, WebP, GIF, BMP, TGA, ICO, QOI, PNM, OpenEXR, Radiance HDR and AVIF, with symmetric read and write at 8, 16 and 32 bits, and the native .pcraft format.
+Tags:
+- image
+- photo
+- picture
+- psd
+ReleaseNotes: |-
+  Upgrade notes
+  - Automation (MCP / control channel) now needs explicit file roots. File access from automation clients is limited to folders you grant with --automation-read-root <dir> / --automation-write-root <dir> (or PHOTOCRAFT_AUTOMATION_READ_ROOT / PHOTOCRAFT_AUTOMATION_WRITE_ROOT), and paths must be relative to them. Without roots, automation file operations fail closed. The desktop control channel also requires the per-launch token printed at startup. Interactive file dialogs and one-shot CLI commands are unaffected.
+  - Camera RAW: DNG, Canon CR2, Sony ARW (lossless and compressed), Panasonic RW2 and uncompressed Olympus ORF now decode. Nikon's compressed NEF and other formats still open their embedded full-size preview for now.
+  What's Changed
+  - Indexed Color: no panic when forced colours fill the palette by @storybored379 in https://github.com/storytold/photocraft/pull/17
+  - MCP: a panicking command no longer wedges the headless session by @storybored379 in https://github.com/storytold/photocraft/pull/16
+  - Layers: Add Layer Mask uses the active selection by @Multipad-cyber in https://github.com/storytold/photocraft/pull/11
+  - feat(ui): add Exit to the File menu by @torstfugl in https://github.com/storytold/photocraft/pull/10
+  - fix(ui): give menu bar labels more breathing room by @torstfugl in https://github.com/storytold/photocraft/pull/8
+  - Eraser on Background layer paints the background colour (fixes #15) by @echelon in https://github.com/storytold/photocraft/pull/19
+  - Open links in the system browser via a platform service (fixes #14) by @echelon in https://github.com/storytold/photocraft/pull/20
+  - Test: Image Rotation rotates every layer (re #1) by @echelon in https://github.com/storytold/photocraft/pull/21
+  - GPU: Rgba16Float fallback when Rgba32Float isn't renderable (fixes #7) by @echelon in https://github.com/storytold/photocraft/pull/22
+  - Add File > Open Recent (fixes #5) by @echelon in https://github.com/storytold/photocraft/pull/23
+  - Licensing: MIT OR Apache-2.0 files, NOTICE, ArtCraft brand terms, attribution by @echelon in https://github.com/storytold/photocraft/pull/32
+  - cms tests: system_profiles skips malformed named-colour profiles by @storybored379 in https://github.com/storytold/photocraft/pull/24
+  - Codecs: camera raw files fail with a clear "not supported" error by @storybored379 in https://github.com/storytold/photocraft/pull/25
+  - Filter › Other › Minimum / Maximum: Preserve Roundness by @storybored379 in https://github.com/storytold/photocraft/pull/27
+  - Layer Style › Blending Options › Blend If (render, PSD round trip, command) by @storybored379 in https://github.com/storytold/photocraft/pull/26
+  - Dialogs can be moved by dragging the title bar by @sommerper in https://github.com/storytold/photocraft/pull/29
+  - Layer Style dialog previews effects live on the canvas by @sommerper in https://github.com/storytold/photocraft/pull/30
+  - Never crash: steering rules, clippy.toml, forbid unsafe by @echelon in https://github.com/storytold/photocraft/pull/33
+  - CI: green on all platforms (rustfmt config, clippy 1.99, FXC-safe adjust shader) by @echelon in https://github.com/storytold/photocraft/pull/37
+  - feat(ui): confirm before discarding unsaved changes by @torstfugl in https://github.com/storytold/photocraft/pull/31
+  - docs: add mdBook and security documentation foundation by @Gh0stlyKn1ght in https://github.com/storytold/photocraft/pull/35
+  - Never crash: psd, codecs, format, io are panic-free by @echelon in https://github.com/storytold/photocraft/pull/34
+  - Never crash: cms is panic-free by @echelon in https://github.com/storytold/photocraft/pull/36
+  - Never crash: text, color, doc, paint, geom, raster, compose, vector by @echelon in https://github.com/storytold/photocraft/pull/39
+  - Never crash: automation (MCP/RPC) and photocraft-cli are panic-free by @echelon in https://github.com/storytold/photocraft/pull/38
+  - Never crash: algo pyramids and ui-egui parity without expect by @echelon in https://github.com/storytold/photocraft/pull/40
+  - Never crash: the engine is panic-free by @echelon in https://github.com/storytold/photocraft/pull/54
+  - Never crash: the GPU compositor is panic-free by @echelon in https://github.com/storytold/photocraft/pull/55
+  - Never crash: algo is panic-free by @echelon in https://github.com/storytold/photocraft/pull/56
+  - Never crash: ui-egui is panic-free by @echelon in https://github.com/storytold/photocraft/pull/57
+  - Never crash: last-resort guard for commands and file import/export by @echelon in https://github.com/storytold/photocraft/pull/58
+  - Never crash: ops denies panicking shortcuts by @echelon in https://github.com/storytold/photocraft/pull/59
+  - security: authenticate control channels and bound transport resources by @Gh0stlyKn1ght in https://github.com/storytold/photocraft/pull/61
+  - PSD round trip: read/write Vibrance, Color Balance, B&W, Photo Filter, Channel Mixer; corpus floors by @echelon in https://github.com/storytold/photocraft/pull/60
+  - UI input: Ctrl+'+' zooms the canvas, dialogs don't cancel on outside click, menu hover-switch by @echelon in https://github.com/storytold/photocraft/pull/62
+  - macOS: open files from Finder/Open With/Dock; file path, recent, warnings and .pcraft fixes by @echelon in https://github.com/storytold/photocraft/pull/63
+  - Camera raw: clean-room pure-Rust decoder (DNG, CR2, TIFF/EP raws) with develop pipeline by @echelon in https://github.com/storytold/photocraft/pull/65
+  - Colour-managed canvas: document profile → monitor (P3/Adobe RGB/ProPhoto/Gray/CMYK), linear EXR, embedded CMYK by @echelon in https://github.com/storytold/photocraft/pull/66
+  - Sandboxed WebAssembly plug-ins: photocraft-plugins (wasmi), plugin.* commands, Filter › Plug-ins by @echelon in https://github.com/storytold/photocraft/pull/67
+  - Image › Adjustments overhaul: full params, one editor per kind, live-preview dialogs, Curves point deletion by @echelon in https://github.com/storytold/photocraft/pull/68
+  - Magic Eraser and Background Eraser tools; canvas rotation/flip/size move vector geometry by @echelon in https://github.com/storytold/photocraft/pull/70
+  - Photoshop brushes: .abr import, stylus pressure/tilt, 36 grouped presets, .grd import by @echelon in https://github.com/storytold/photocraft/pull/74
+  - security: constrain automation file access to granted roots by @Gh0stlyKn1ght in https://github.com/storytold/photocraft/pull/72
+  - Large images: adapter texture limits, banded compositing/export, proxy thumbnails, history byte budget by @echelon in https://github.com/storytold/photocraft/pull/71
+  - fix(ui): brush and eraser show the real stroke while drawing by @sommerper in https://github.com/storytold/photocraft/pull/64
+  - Select › Color Range: the dialog, Select presets, eyedroppers, Localized Color Clusters, Invert by @storybored379 in https://github.com/storytold/photocraft/pull/80
+  - Persist brush presets (user + imported .abr) in a size-aware preset store by @echelon in https://github.com/storytold/photocraft/pull/82
+  - raw: Sony cRAW, Panasonic RW2 (RawFormat 5), uncompressed ORF + ORF previews; NEF blocked (clean-room) by @echelon in https://github.com/storytold/photocraft/pull/83
+  - GPU canvas: Rgba16Float display texture for 16/32-bit documents (#46) by @echelon in https://github.com/storytold/photocraft/pull/84
+  - Adjustment dialogs: GPU live preview through a clipped adjustment layer (#77) by @echelon in https://github.com/storytold/photocraft/pull/85
+  - Painting: right-click opens the brush picker (or erases), real Smoothing, eraser-on-Background tests by @echelon in https://github.com/storytold/photocraft/pull/86
+  - Release 0.2.0 by @echelon in https://github.com/storytold/photocraft/pull/113
+  New Contributors
+  - @storybored379 made their first contribution in https://github.com/storytold/photocraft/pull/17
+  - @Multipad-cyber made their first contribution in https://github.com/storytold/photocraft/pull/11
+  - @torstfugl made their first contribution in https://github.com/storytold/photocraft/pull/10
+  - @echelon made their first contribution in https://github.com/storytold/photocraft/pull/19
+  - @sommerper made their first contribution in https://github.com/storytold/photocraft/pull/29
+  - @Gh0stlyKn1ght made their first contribution in https://github.com/storytold/photocraft/pull/35
+  Full Changelog: https://github.com/storytold/photocraft/compare/v0.1.1...v0.2.0
+ReleaseNotesUrl: https://github.com/storytold/photocraft/releases/tag/v0.2.0
+PurchaseUrl: https://getartcraft.com/pricing
+Documentations:
+- DocumentLabel: Tutorials
+  DocumentUrl: https://getartcraft.com/tutorials
+- DocumentLabel: FAQ
+  DocumentUrl: https://getartcraft.com/faq
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
