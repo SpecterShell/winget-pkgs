@@ -1,13 +1,13 @@
 # Created with YamlCreate.ps1 Dumplings Mod
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
-PackageIdentifier: Apache.Maka
+PackageIdentifier: Apache.Maka.Nightly
 PackageVersion: 0.2.0-dev.15.20260902
 PackageLocale: en-US
 Publisher: Maka
 PublisherUrl: https://maka.apache.org/
 PublisherSupportUrl: https://github.com/apache/maka/issues
-PrivacyUrl: https://privacy.apache.org/policies/privacy-policy-public.html
+PrivacyUrl: https://github.com/apache/maka/blob/HEAD/SECURITY.md
 PackageName: Maka
 PackageUrl: https://maka.apache.org/
 License: Apache-2.0

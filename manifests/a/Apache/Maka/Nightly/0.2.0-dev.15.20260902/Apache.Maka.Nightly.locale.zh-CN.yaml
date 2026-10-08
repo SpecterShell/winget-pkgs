@@ -1,7 +1,7 @@
 # Created with YamlCreate.ps1 Dumplings Mod
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
-PackageIdentifier: Apache.Maka
+PackageIdentifier: Apache.Maka.Nightly
 PackageVersion: 0.2.0-dev.15.20260902
 PackageLocale: zh-CN
 ShortDescription: 一个本地优先的 Agent 工作台：工具、权限、产物和可恢复的进度全程保持可见。
