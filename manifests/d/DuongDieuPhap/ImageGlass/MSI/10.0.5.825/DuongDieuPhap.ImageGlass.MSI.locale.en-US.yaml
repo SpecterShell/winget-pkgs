@@ -11,8 +11,8 @@ Publisher: Duong Dieu Phap
 Author: Dương Diệu Pháp
 PackageName: ImageGlass (MSI)
 # PackageUrl: https://imageglass.org/
-License: Proprietary
-# LicenseUrl: https://imageglass.org/license
+License: GPL-3.0
+LicenseUrl: https://github.com/d2phap/ImageGlass/blob/HEAD/LICENSE
 Copyright: Copyright © 2010-2026 by Dương Diệu Pháp. All rights reserved.
 ShortDescription: A lightweight, versatile image viewer
 Description: ImageGlass is a lightweight software designed for seamless viewing of images in a clean and intuitive interface. With support for over 80 common image formats including WEBP, GIF, SVG, PNG, JXL, HEIC,... ImageGlass also offers advanced features that cater to the needs of both regular users and designers, making it the excellent tool to enhance workflow efficiency.
