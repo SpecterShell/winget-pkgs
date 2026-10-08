@@ -3,6 +3,6 @@
 
 PackageIdentifier: metasequoiaime.MetasequoiaIME
 PackageVersion: 0.9.5
-DefaultLocale: en-US
+DefaultLocale: zh-CN
 ManifestType: version
 ManifestVersion: 1.12.0

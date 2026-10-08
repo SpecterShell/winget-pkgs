@@ -1,18 +1,9 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.12.0.schema.json
 
 PackageIdentifier: metasequoiaime.MetasequoiaIME
 PackageVersion: 0.9.5
 PackageLocale: en-US
-Publisher: Metasequoia
-PublisherUrl: https://msime.app/
-PublisherSupportUrl: https://github.com/metasequoiaime/msime-windows/issues
-PrivacyUrl: https://github.com/metasequoiaime/msime-windows/blob/HEAD/PRIVACY.md
-PackageName: Metasequoia IME
-PackageUrl: https://msime.app/
-License: GPL-3.0
-LicenseUrl: https://github.com/metasequoiaime/msime-windows/blob/HEAD/LICENSE
-Copyright: Copyright © 2026-present fanlusky
 ShortDescription: A free and open-source Chinese and Japanese input method for Windows, built on TSF with no legacy IMM32 path.
 Description: |-
   A free and open-source Chinese and Japanese input method for Windows 10 and 11, built on TSF with no legacy IMM32 path.
@@ -34,9 +25,8 @@ Tags:
 - pinyin
 - tsf
 - wubi
-ReleaseNotesUrl: https://github.com/metasequoiaime/msime-windows/releases/tag/v0.9.5
 Documentations:
 - DocumentLabel: Documentation
   DocumentUrl: https://msime.app/docs/
-ManifestType: defaultLocale
+ManifestType: locale
 ManifestVersion: 1.12.0
