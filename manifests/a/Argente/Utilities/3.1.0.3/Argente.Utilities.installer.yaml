@@ -1,0 +1,81 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Argente.Utilities
+PackageVersion: 3.1.0.3
+ReleaseDate: 2026-10-09
+Installers:
+- Architecture: x86
+  InstallerType: inno
+  Scope: machine
+  InstallerUrl: https://argenteutilities.com/en/download/utilitiesx86
+  InstallerSha256: 6EC9E9026DA52EF2B260C4C472E4B4D29B94D430C72D5E1B7FCE2620A93FBE39
+  InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+  InstallerSwitches:
+    Silent: /VERYSILENT /NORESTART --hidden
+    SilentWithProgress: /SILENT /NORESTART --hidden
+  UpgradeBehavior: install
+  ProductCode: Argente Utilities 3.0
+  ElevationRequirement: elevatesSelf
+- Architecture: x64
+  InstallerType: inno
+  Scope: machine
+  InstallerUrl: https://argenteutilities.com/en/download/utilitiesx64
+  InstallerSha256: FED79B932A5AE3834B36A01BC58BBA057B13AE4EB294A691FE36129E303E5732
+  InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+  InstallerSwitches:
+    Silent: /VERYSILENT /NORESTART --hidden
+    SilentWithProgress: /SILENT /NORESTART --hidden
+  UpgradeBehavior: install
+  ProductCode: Argente Utilities 3.0
+  ElevationRequirement: elevatesSelf
+- Architecture: arm64
+  InstallerType: inno
+  Scope: machine
+  InstallerUrl: https://argenteutilities.com/en/download/utilitiesarm64
+  InstallerSha256: D8FBF358B64042903CC64BBF76B75A9F123AB03BB1A1ABAD107545FD955829DD
+  InstallModes:
+  - interactive
+  - silent
+  - silentWithProgress
+  InstallerSwitches:
+    Silent: /VERYSILENT /NORESTART --hidden
+    SilentWithProgress: /SILENT /NORESTART --hidden
+  UpgradeBehavior: install
+  ProductCode: Argente Utilities 3.0
+  ElevationRequirement: elevatesSelf
+- Architecture: x86
+  InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: Argente.Utilities.X86\Argente.Utilities.exe
+  InstallerUrl: https://argenteutilities.com/en/download/utilitiesx86portable
+  InstallerSha256: B3473B2558075039BB445026FF8BCB4E5BD051798A0D3EFDA97B96A10848334D
+  UpgradeBehavior: uninstallPrevious
+  ArchiveBinariesDependOnPath: true
+- Architecture: x64
+  InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: Argente.Utilities.X64\Argente.Utilities.exe
+  InstallerUrl: https://argenteutilities.com/en/download/utilitiesx64portable
+  InstallerSha256: A356E40502602BBDD44EF00F4E18F6CCE2049E946CB868CDF25DD98777550238
+  UpgradeBehavior: uninstallPrevious
+  ArchiveBinariesDependOnPath: true
+- Architecture: arm64
+  InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: Argente.Utilities.Arm64\Argente.Utilities.exe
+  InstallerUrl: https://argenteutilities.com/en/download/utilitiesarm64portable
+  InstallerSha256: F0A5427B866CF8C3C4B0C5F1A31FA62DC36161689A7583D918F0262765EFD762
+  UpgradeBehavior: uninstallPrevious
+  ArchiveBinariesDependOnPath: true
+ManifestType: installer
+ManifestVersion: 1.12.0
