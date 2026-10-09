@@ -11,7 +11,7 @@ ElevationRequirement: elevatesSelf
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles(x86)%\CHERRY Utility Software'
 Installers:
-- Architecture: x86
+- Architecture: x64
   InstallerUrl: https://www.cherry.de/fileadmin/media/Corporate/Software/CHERRY_Utility_Software_x32-3.12.exe
   InstallerSha256: 2FA52325747EE96B560F8BA8C304FEDC10D4AB75389258BFD8001168AF4BB238
 ManifestType: installer
