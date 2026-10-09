@@ -16,10 +16,10 @@ ProductCode: Szafir 2.0_is1
 ReleaseDate: 2026-09-18
 Installers:
 - Architecture: x86
-  InstallerUrl: https://www.elektronicznypodpis.pl/storage/file/core_files/2026/1/14/4d5a4f1d14a567431e7a539c07ca2938/Szafir_2.0.0_b703_jre11.exe
+  InstallerUrl: https://cdn.elektronicznypodpis.pl/Szafir/Szafir_2.0.0_b708_jre11.exe
   InstallerSha256: 44E6A9B5347AD16EF50FCDEDCAB096207EC5A7718C66963CCD7B3046ECC801F4
 - Architecture: x64
-  InstallerUrl: https://www.elektronicznypodpis.pl/storage/file/core_files/2026/1/14/4d5a4f1d14a567431e7a539c07ca2938/Szafir_2.0.0_b703_jre11.exe
+  InstallerUrl: https://cdn.elektronicznypodpis.pl/Szafir/Szafir_2.0.0_b708_jre11.exe
   InstallerSha256: 44E6A9B5347AD16EF50FCDEDCAB096207EC5A7718C66963CCD7B3046ECC801F4
 ManifestType: installer
 ManifestVersion: 1.12.0
