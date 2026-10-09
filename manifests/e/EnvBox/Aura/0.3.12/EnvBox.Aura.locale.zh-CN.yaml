@@ -17,7 +17,6 @@ Description: |-
 
   软件包包含用于管理环境配置和启动应用的图形界面、envbox 命令行工具（envbox run / profile / app），以及基于 Detours 的运行时 DLL。
 Tags:
-- dns
 - 区域设置
 - 时区
 - 本地化
