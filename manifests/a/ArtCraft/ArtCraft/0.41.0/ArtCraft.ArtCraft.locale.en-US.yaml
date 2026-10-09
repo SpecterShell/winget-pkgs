@@ -36,5 +36,10 @@ Tags:
 - image-generation
 - video
 PurchaseUrl: https://getartcraft.com/pricing
+Documentations:
+- DocumentLabel: Tutorials
+  DocumentUrl: https://getartcraft.com/tutorials
+- DocumentLabel: FAQ
+  DocumentUrl: https://getartcraft.com/faq
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
