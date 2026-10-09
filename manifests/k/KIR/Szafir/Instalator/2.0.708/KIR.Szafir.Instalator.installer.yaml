@@ -13,7 +13,7 @@ AppsAndFeaturesEntries:
 - UpgradeCode: '{5C24165E-C0B7-4C58-9242-B168C55D0562}'
 Installers:
 - Architecture: x86
-  InstallerUrl: https://www.elektronicznypodpis.pl/storage/file/core_files/2026/1/16/6bbd505922aec578f83dc8986b067067/Szafir_Instalator.msi
+  InstallerUrl: https://cdn.elektronicznypodpis.pl/Szafir_Instalator.msi
   InstallerSha256: CA7EFCB9984E29F6EACE76F25989E2583532E21F5F2840ADC1EED0EAC44EE8A3
 ManifestType: installer
 ManifestVersion: 1.12.0
