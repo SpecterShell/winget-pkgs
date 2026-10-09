@@ -2,7 +2,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: D-Tools.D-ToolsSystemIntegrator.24
-PackageVersion: 24.26.5572.0
+PackageVersion: 24.26.5575.0
 InstallerType: exe
 Scope: machine
 InstallModes:
@@ -58,7 +58,7 @@ ExpectedReturnCodes:
 Dependencies:
   PackageDependencies:
   - PackageIdentifier: Microsoft.SyncFramework.DatabaseProviders
-ProductCode: '{8C22D939-5309-4570-9A4D-B910F8E04ABD}'
+ProductCode: '{1C990558-C910-41CB-B3E5-4C651C8AD29E}'
 ReleaseDate: 2026-09-29
 AppsAndFeaturesEntries:
 - UpgradeCode: '{7DF8A0EE-FAAE-4C32-ABCF-69E17C65C220}'
@@ -66,6 +66,6 @@ AppsAndFeaturesEntries:
 Installers:
 - Architecture: x64
   InstallerUrl: https://downloads.d-tools.com/si/v24/SIClient.exe
-  InstallerSha256: 107AB011D22D936143F09E30E594C21D657DE3D2419C436CD386EE3C9D07302A
+  InstallerSha256: 9BF26176A688FF55838FA3533E83513E7680E1C32836A91A5884D6BFC2F645B7
 ManifestType: installer
 ManifestVersion: 1.12.0
