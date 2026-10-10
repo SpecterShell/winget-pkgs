@@ -9,7 +9,7 @@ PublisherUrl: https://github.com/CrazyFigure
 PublisherSupportUrl: https://github.com/CrazyFigure/NoteBoard/issues
 PackageName: NoteBoard
 PackageUrl: https://github.com/CrazyFigure/NoteBoard
-License: GPL-3.0
+License: 免费软件
 ShortDescription: 集 Markdown 笔记、多维表格、思维导图与白板绘图于一体的知识工作台。
 Description: NoteBoard 是一款轻量、现代化的跨端效率工具，覆盖 Windows 桌面与安卓手机，集 Markdown 笔记、多维表格、声明式信息图、思维导图、白板绘图、代码配置编辑、文本对比与图片预览于一体。坚持本地优先与文件优先理念：无强制工作区绑定、无强制云端同步，数据完全由用户掌控。
 Tags:
