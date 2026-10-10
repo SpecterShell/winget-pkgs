@@ -71,6 +71,9 @@ Tags:
 - 编程
 - 聊天机器人
 - 自主智能
+ReleaseNotes: |-
+  优化模型信息展示
+  - 优化模型信息展示
 Documentations:
 - DocumentLabel: 文档
   DocumentUrl: https://docs.qoder.cn/cli/overview
