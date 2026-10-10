@@ -10,7 +10,7 @@ PublisherSupportUrl: https://github.com/ldm0715/bowen_music/issues
 PackageName: 波纹音乐
 PackageUrl: https://github.com/ldm0715/bowen_music
 License: GPL-3.0
-LicenseUrl: https://github.com/ldm0715/bowen_music/blob/main/LICENSE
+LicenseUrl: https://github.com/ldm0715/bowen_music/blob/HEAD/LICENSE
 ShortDescription: 非官方波点音乐桌面客户端。
 Description: 波纹音乐是一个非官方的波点音乐桌面客户端，基于 WinUI 3（Windows App SDK）+ .NET + libmpv 构建。补齐官方 PC 端缺失的评论与收藏歌单，通过 SMTC 将播放状态交给系统媒体面板，并提供全屏沉浸歌词、桌面歌词、MV 播放与多账号登录等功能。
 Tags:
