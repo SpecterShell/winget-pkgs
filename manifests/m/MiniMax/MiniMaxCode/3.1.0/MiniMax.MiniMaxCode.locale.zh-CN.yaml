@@ -4,12 +4,12 @@
 PackageIdentifier: MiniMax.MiniMaxCode
 PackageVersion: 3.1.0
 PackageLocale: zh-CN
-PublisherUrl: https://www.minimaxi.com/
-PrivacyUrl: https://agent.minimaxi.com/doc/zh/privacy-policy.html
+PublisherUrl: https://www.minimax.cn/
+PrivacyUrl: https://agent.minimax.cn/doc/zh/privacy-policy.html
 Author: 上海稀宇科技有限公司
-PackageUrl: https://agent.minimaxi.com/download
-LicenseUrl: https://agent.minimaxi.com/doc/zh/terms-of-service.html
-CopyrightUrl: https://agent.minimaxi.com/doc/zh/terms-of-service.html
+PackageUrl: https://agent.minimax.cn/download
+LicenseUrl: https://agent.minimax.cn/doc/zh/terms-of-service.html
+CopyrightUrl: https://agent.minimax.cn/doc/zh/terms-of-service.html
 ShortDescription: 你的专属 AI 搭档，记住关于你的一切，并在需要时召集小队解决问题
 Tags:
 - minimax
@@ -30,7 +30,7 @@ ReleaseNotes: |-
   - 首月五折：即日起至 10 月 14 日，新订阅或升级为 M Plan 的用户首月享五折，次月起按原价续订。
   - 国庆七日不限量：10 月 1 日至 7 日，所有已订阅用户在 MiniMax Code 内使用 M3.1-Flash-Preview 不限量。
   - 老用户积分回馈：本次更新发布后 24 小时内，为所有 Token Plan 用户发放额外积分福利。
-ReleaseNotesUrl: https://agent.minimaxi.com/docs/changelog
-PurchaseUrl: https://platform.minimaxi.com/subscribe/token-plan
+ReleaseNotesUrl: https://agent.minimax.cn/docs/changelog
+PurchaseUrl: https://platform.minimax.cn/subscribe/token-plan
 ManifestType: locale
 ManifestVersion: 1.12.0
