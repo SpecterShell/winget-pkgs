@@ -18,5 +18,10 @@ Tags:
 - 启动器
 - 套件
 - 更新
+Documentations:
+- DocumentLabel: 教程
+  DocumentUrl: https://getartcraft.com/tutorials
+- DocumentLabel: 常见问题
+  DocumentUrl: https://getartcraft.com/faq
 ManifestType: locale
 ManifestVersion: 1.12.0
