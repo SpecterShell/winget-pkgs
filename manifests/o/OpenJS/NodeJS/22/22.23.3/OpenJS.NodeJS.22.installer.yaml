@@ -14,8 +14,7 @@ FileExtensions:
 - mjs
 ReleaseDate: 2026-09-23
 Installers:
-- InstallerLocale: en-US
-  Architecture: x86
+- Architecture: x86
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://nodejs.org/dist/v22.23.3/node-v22.23.3-x86.msi
@@ -24,12 +23,8 @@ Installers:
     InstallLocation: INSTALLDIR="<INSTALLPATH>"
   UpgradeBehavior: install
   ProductCode: '{25A02DBA-EEE7-436D-8072-81A5A9BD7037}'
-  AppsAndFeaturesEntries:
-  - DisplayName: Node.js
-    UpgradeCode: '{47C07A3A-42EF-4213-A85D-8F5A59077C28}'
   ElevationRequirement: elevatesSelf
-- InstallerLocale: en-US
-  Architecture: x64
+- Architecture: x64
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://nodejs.org/dist/v22.23.3/node-v22.23.3-x64.msi
@@ -38,12 +33,8 @@ Installers:
     InstallLocation: INSTALLDIR="<INSTALLPATH>"
   UpgradeBehavior: install
   ProductCode: '{8077DB9D-18D9-4DAF-8CA6-B8CAE42EB734}'
-  AppsAndFeaturesEntries:
-  - DisplayName: Node.js
-    UpgradeCode: '{47C07A3A-42EF-4213-A85D-8F5A59077C28}'
   ElevationRequirement: elevatesSelf
-- InstallerLocale: en-US
-  Architecture: arm64
+- Architecture: arm64
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://nodejs.org/dist/v22.23.3/node-v22.23.3-arm64.msi
@@ -52,9 +43,6 @@ Installers:
     InstallLocation: INSTALLDIR="<INSTALLPATH>"
   UpgradeBehavior: install
   ProductCode: '{E11ECE98-3EC1-4B3E-9F3C-BEAE4354621E}'
-  AppsAndFeaturesEntries:
-  - DisplayName: Node.js
-    UpgradeCode: '{47C07A3A-42EF-4213-A85D-8F5A59077C28}'
   ElevationRequirement: elevatesSelf
 - Architecture: x86
   InstallerType: zip
