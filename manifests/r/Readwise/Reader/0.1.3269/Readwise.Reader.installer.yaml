@@ -13,7 +13,7 @@ Installers:
   Scope: user
   InstallerUrl: https://github.com/readwiseio/reader-desktop-releases/releases/download/reader-desktop-v0.1.3269/Reader_0.1.3269_x64-setup.exe
   InstallerSha256: D68517C91E2F7B236EEE2BB3E4FCDD1455A5CFD7AD6A47450A7C5D0C90DFE51F
-  ProductCode: Reader
+  # ProductCode: Reader # Conflicts with hadc188.Reader
   InstallationMetadata:
     DefaultInstallLocation: '%LocalAppData%\Reader'
 - Architecture: x64
