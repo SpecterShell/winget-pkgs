@@ -5,6 +5,8 @@ PackageIdentifier: yetone.Confirmo
 PackageVersion: 1.0.96
 InstallerType: nullsoft
 Scope: user
+Protocols:
+- confirmo
 ProductCode: 1045f21e-21f4-521e-a962-434e7f8d1474
 ReleaseDate: 2026-05-18
 InstallationMetadata:
