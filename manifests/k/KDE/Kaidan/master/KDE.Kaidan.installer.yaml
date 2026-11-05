@@ -10,14 +10,14 @@ ReleaseDate: 2026-11-05
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7356-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 368F92397D6BAFF7CE86D3CA27C823845A7EB6FDCA5280DFA42DF4333803985D
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7361-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: AF8C5D272C82C355A5C238396C590CC02C87ED166186EB46E10C89FFAA0E3ED4
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7356-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 368F92397D6BAFF7CE86D3CA27C823845A7EB6FDCA5280DFA42DF4333803985D
+  InstallerUrl: https://cdn.kde.org/ci-builds/network/kaidan/master/windows/kaidan-master-7361-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: AF8C5D272C82C355A5C238396C590CC02C87ED166186EB46E10C89FFAA0E3ED4
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
