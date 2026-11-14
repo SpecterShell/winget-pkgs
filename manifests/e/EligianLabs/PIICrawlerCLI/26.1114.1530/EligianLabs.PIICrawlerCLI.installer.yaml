@@ -1,0 +1,18 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: EligianLabs.PIICrawlerCLI
+PackageVersion: 26.1114.1530
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: piicrawler.exe
+Commands:
+- piicrawler
+ReleaseDate: 2026-11-14
+Installers:
+- Architecture: x64
+  InstallerUrl: https://downloads.eligian.com/piicrawler-cli-windows-signed.zip
+  InstallerSha256: 0B854F0C5B04486382BB1FDB7E0A21D9DF0D51D5AFBB267C795038375D67A0AE
+ManifestType: installer
+ManifestVersion: 1.28.0
