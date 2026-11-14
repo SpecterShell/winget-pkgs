@@ -11,7 +11,6 @@ FileExtensions:
 - ifcgeo
 ProductCode: Open Geotechniek Studio
 ReleaseDate: 2026-11-06
-ElevationRequirement: elevationRequired
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\Open Geotechniek Studio'
 Installers:
