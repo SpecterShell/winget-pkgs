@@ -1,0 +1,27 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: ChisomoBanzi.Serpentine3D
+PackageVersion: 0.12.4
+InstallerType: inno
+FileExtensions:
+- serp
+ProductCode: '{7E1D0A4C-52F3-4B7E-9C0D-2B54E6A9D311}_is1'
+ReleaseDate: 2026-11-08
+InstallationMetadata:
+  DefaultInstallLocation: '%LocalAppData%\Programs\Serpentine3D'
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/chisomobanzi/Serpentine3D/releases/download/v0.12.4/Serpentine3D-Setup-x86_64.exe
+  InstallerSha256: D77C9CC731D9CAE240B161081828D2182E8F4666FAC6B448F4EEFFA67E2BC63F
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/chisomobanzi/Serpentine3D/releases/download/v0.12.4/Serpentine3D-Setup-x86_64.exe
+  InstallerSha256: D77C9CC731D9CAE240B161081828D2182E8F4666FAC6B448F4EEFFA67E2BC63F
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.28.0
