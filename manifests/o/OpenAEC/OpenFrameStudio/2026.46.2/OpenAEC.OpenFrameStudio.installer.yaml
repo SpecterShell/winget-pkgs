@@ -1,0 +1,24 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: OpenAEC.OpenFrameStudio
+PackageVersion: 2026.46.2
+InstallerType: nullsoft
+UpgradeBehavior: install
+ProductCode: Open Frame Studio
+ReleaseDate: 2026-11-13
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/OpenAEC-Foundation/open-frame-studio/releases/download/v2026.46.2/Open.Frame.Studio_2026.46.2_x64_user-setup.exe
+  InstallerSha256: F88B96DB26DE2DBC75CA2C5474E66B66B6C5AC1ECF8B3491295CDDDA0AB79EE3
+  InstallationMetadata:
+    DefaultInstallLocation: '%LocalAppData%\Open Frame Studio'
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/OpenAEC-Foundation/open-frame-studio/releases/download/v2026.46.2/Open.Frame.Studio_2026.46.2_x64-setup.exe
+  InstallerSha256: 0E3454DBC4C2FDFECE90924D15A21BCC76FF06B509B0C0B4F244700BBF7BD528
+  InstallationMetadata:
+    DefaultInstallLocation: '%ProgramFiles%\Open Frame Studio'
+ManifestType: installer
+ManifestVersion: 1.28.0
