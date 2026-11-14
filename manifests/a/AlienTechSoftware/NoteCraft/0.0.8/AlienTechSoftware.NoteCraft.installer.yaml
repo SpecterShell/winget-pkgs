@@ -1,0 +1,19 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: AlienTechSoftware.NoteCraft
+PackageVersion: 0.0.8
+InstallerType: wix
+Scope: machine
+InstallerSwitches:
+  InstallLocation: INSTALLFOLDER="<INSTALLPATH>"
+ProductCode: '{3B0FB50B-C7F4-43D0-B8C3-42AFDEA9DC12}'
+ReleaseDate: 2026-11-02
+AppsAndFeaturesEntries:
+- UpgradeCode: '{C2662B42-6578-43FF-821B-818575EF96BD}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/AlienTechSoftware/notecraft/releases/download/v0.0.8/notecraft-0.0.8-windows-x64.msi
+  InstallerSha256: 3DB9D6248D84D08A57E76052944215C1C01C66A1BC47F4B5EC327DDBB8C6B825
+ManifestType: installer
+ManifestVersion: 1.28.0
