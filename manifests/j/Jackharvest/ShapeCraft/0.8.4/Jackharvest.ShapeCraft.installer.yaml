@@ -27,7 +27,6 @@ Installers:
     DefaultInstallLocation: '%LocalAppData%\Programs\ShapeCraft'
 - Architecture: x64
   InstallerType: wix
-  Scope: user
   InstallerUrl: https://github.com/jackharvest/shapecraft/releases/download/v0.8.4-alpha/shapecraft-0.8.4-windows-x64.msi
   InstallerSha256: 83EA9BE87827AF65D9991F478E2908331625E8A1AC27FE2CE09034554C341058
   InstallerSwitches:
