@@ -1,0 +1,28 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.28.0.schema.json
+
+PackageIdentifier: n1m21n.Infinite
+PackageVersion: 1.2.0
+PackageLocale: zh-CN
+ShortDescription: 免费开源的节点式视听工作站，支持 GPU 合成、3D、模块化合成器和 VST3/AU 插件宿主。
+Description: |-
+  Infinite 是由 Naman Soni（n1m21n）开发的免费开源视听工作站。画面、音乐和代码在同一块节点画布上协作，支持 macOS、Windows 和 Linux，提供英语、西班牙语、德语、中文、日语和俄语界面。GPU 图像与视频合成、程序化 3D 几何与物理，以及带 AU 和 VST3 插件宿主的模块化合成器机架，都通过一个调制图相互连接。大多数节点只做一件事，而 Infinite 自有的编程语言 Field 让你改写节点的行为。
+  一切都是节点，每根线缆只传一种东西：图像、3D 几何、音频、音符或控制信号。从左到右连线，右键添加节点，凡是旁边带点的东西都可以被调制。Infinite 拥有 347 种节点类型。
+  GPU 纹理管线（GLSL、OpenGL 3.2 Core）：图像、视频和摄像头，Syphon、Spout 和 NDI 源，形状、噪声和 Field Pixel 着色器，32 种混合模式，模糊、辉光、故障、半调、曲线、LUT、反应扩散、反馈循环和本地背景移除。
+  程序化网格，USD、OBJ、PLY、STL、glTF 导入，布尔运算，Voronoi 与 Delaunay，点实例化，粒子，PBD 布料与软体，元球，相机和灯光节点，以及 PBR 渲染（Cook-Torrance GGX、ACES、32 位 HDRI）。3D View 面板可将它们合成为一个场景。
+  基于与画面相同 BPM 走带的采样精确音频图。合成器与物理建模、完整的效果器机架、带原生窗口和可调制参数的 AU 与 VST3 插件宿主，还有 Generate Samples——一个"生成"而非"加载"采样的播放器：选定声部后按一下，就能用 Infinite 自己的乐器渲染出一段循环。
+  一侧是音符音序器、琶音器、和弦器、量化器和 MIDI 输入输出。另一侧是 LFO、包络、随机、模式 CV、音频分析（8 段 FFT、起音）、图像分析和摄像头跟踪。任何源都可以驱动任何参数：着色器控制、3D 变换、合成器旋钮或宿主插件的参数。
+  面板停靠在节点画布四周：可合成并渲染场景的 3D View、Sample Studio、Piano Roll、Session 剪辑启动器和 Timeline 编曲、Mod Matrix，以及带 MIDI 学习的 Performance 演奏面板。Infinite 内置真正的终端，可以运行你自己的 shell 和工具，infinite 命令可驱动所有面板、命令和设置。
+Tags:
+- 三维
+- daw
+- vst3
+- 合成器
+- 模块化合成器
+- 视听
+- 视频
+- 节点编辑器
+- 音乐
+- 音频
+ManifestType: locale
+ManifestVersion: 1.28.0

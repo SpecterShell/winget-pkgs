@@ -1,0 +1,73 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: n1m21n.Infinite
+PackageVersion: 1.2.0
+PackageLocale: en-US
+Publisher: Infinite Devices
+PublisherUrl: https://infinitedevices.org/
+PublisherSupportUrl: https://github.com/n1m21n/Infinite/issues
+PrivacyUrl: https://infinitedevices.org/privacy.html
+Author: Naman Soni
+PackageName: Infinite
+PackageUrl: https://infinitedevices.org/
+License: MIT
+LicenseUrl: https://github.com/n1m21n/Infinite/blob/HEAD/LICENSE
+Copyright: Copyright (c) 2026 n1m21n
+ShortDescription: Free open-source node-based audiovisual workstation with GPU compositing, 3D, modular synths, and VST3/AU hosting.
+Description: |-
+  Infinite is a free, open-source audiovisual workstation made by Naman Soni (n1m21n). Visuals, music and code live on one node canvas, on macOS, Windows and Linux, in English, Spanish, German, Chinese, Japanese and Russian. GPU image and video compositing, procedural 3D geometry and physics, and a modular synth rack with AU and VST3 plugin hosting all patch into each other through one modulation graph. Most nodes do one fixed thing, and Field, Infinite's own programming language, lets you write what a node does instead.
+  Everything is a node, and every cable carries one kind of thing: pictures, 3D geometry, audio, notes or control signals. Patch left to right, right-click to add, and anything with a dot beside it can be modulated. Infinite has 347 node types.
+  A GPU texture pipeline (GLSL, OpenGL 3.2 Core): images, video and camera, Syphon, Spout and NDI sources, shapes, noise and Field Pixel shaders, 32 blend modes, blur, bloom, glitch, halftone, curves, LUTs, reaction-diffusion, feedback loops and on-device background removal.
+  Procedural meshes, imports (USD, OBJ, PLY, STL, glTF), booleans, Voronoi and Delaunay, instancing on points, particles, PBD cloth and soft bodies, metaballs, Camera and Light nodes, and PBR rendering (Cook-Torrance GGX, ACES, 32-bit HDRI). The 3D View panel composes them into one scene.
+  A sample-accurate, pull-based audio graph on the same BPM transport as the pictures. Synths and physical models, a full effects rack, AU and VST3 plugin hosting with native windows and modulatable parameters, and Generate Samples, a player whose sample is made rather than loaded.
+  Note sequencers, arpeggiator, chorder, quantizer and MIDI in and out on one side. LFOs, envelopes, random, pattern CV, audio analysis (8-band FFT, onsets), image analysis and camera tracking on the other. Any source can drive any parameter: a shader control, a 3D transform, a synth knob or a hosted plugin's parameter.
+  Panels dock to the edges of the node canvas: a 3D View that composes and renders scenes, Sample Studio, Piano Roll, a Session clip launcher and Timeline arrangement, Mod Matrix, and a Performance surface with MIDI learn. A real terminal inside Infinite runs your own shell and tools, and the infinite command drives every panel, command and setting.
+Tags:
+- 3d
+- audio
+- audiovisual
+- daw
+- modular-synth
+- music
+- node-editor
+- synth
+- video
+- vst3
+ReleaseNotes: |-
+  What's new in v1.2.0
+  Infinite 1.2 runs inside your DAW. Infinite Instrument and Infinite FX are VST3 plugins on macOS, Windows and Linux, and Audio Units on macOS, with your whole patch saved in the DAW project. The plugin is paid: $149 one time, $99 at launch, for two computers, with every update for life. The standalone app stays free and open source, and this release brings it fixes too.
+  Infinite as a plugin
+  - Two plugins from one app: Infinite Instrument takes the track's MIDI, Infinite FX processes the track's audio. Each opens the full Infinite editor inside the DAW
+  - Saved with your project: the patch, its settings and its host automation come back when the project reopens, even before the engine starts
+  - Host automation: right-click any knob or parameter and choose Host automation. It appears in the DAW under the node's own name. Up to 128 per instance, and none show until you bind one
+  - DAW sync (Settings): choose whether the DAW or Infinite owns tempo, playhead and loop. Play and stop always follow the DAW
+  - MIDI from the DAW: the track's MIDI reaches every MIDI node, and CC bindings learned on hardware follow it; Sample Studio records the DAW track
+  - Pop out: move the editor into its own window, and back. Projector windows open on real displays from inside the DAW
+  - Safe when things go wrong: if the engine crashes or hangs, the DAW keeps running, the plugin goes silent and Restart brings back the patch that was on screen
+  - Inside a DAW, Infinite hides what does not belong there: audio device settings, its own play and rewind, updates, offline renders and recording
+  - Licence: paste the key from your email once and it works offline in every DAW on that computer
+  - Installers: Infinite.pkg on macOS and Infinite-Setup-windows-x64.exe on Windows let you tick the app, VST3 and AU; on Linux, install.sh does the same with no sudo. Settings > Infinite as VST3/AU in the app copies or updates the plugins too
+  Curve Editor
+  - A docked panel for drawing curves: open it from the rail or with Shift+E. Every curve is an MSEG page, and you can dock the panel on any side
+  - Draw, then assign: draw a curve, press Assign and click any knob in the patch, sound, picture or 3D. One curve can drive many knobs, each with its own range
+  - Tools: select, pan, pen with bezier handles, freehand draw, line, stamp, bend, eraser, transform and smooth, plus reverse, invert, mirror, simplify, humanize and quantise
+  - Shapes: waves, gates and rhythms, envelopes, risers, drops and sidechain pumps, random, and 38 motion easings (Penner, CSS, Material). Save your own
+  - Type a formula: write f(t), see it as a curve right away, and Bake it into editable points
+  - Record a move: arm Record, then move a MIDI CC or a knob. The take becomes a short editable curve instead of a raw recording
+  - Time: set the length in beats, seconds or frames, with grid, snap and quantise. Play it once, looped or ping-pong, and crop to a loop section
+  - 3D motion: bezier keys with Blender's handle types, and Position, Rotation and Scale groups that fill three linked curves for a 3D node. Frame-exact at 24, 30 and 60 fps
+  - Your old patches: existing MSEG nodes open and sound the same
+  App
+  - Output window: a Transparent window toggle, so OBS window capture can key it (#26)
+  - Wiring: a node added from a dragged pin is wired to it, and search lists only nodes that fit that pin (#48, #52)
+  - Stutter: every repeat edge is faded, so loops and mutes no longer click (#51)
+  - Shadertoy: pasted #version and #extension lines no longer break the compile (#50)
+  - Modulator meter: samples on wall-clock time and restarts cleanly after being off-screen (#49)
+  - Agents: stage-by-stage setup check-ins per agent and OS, verified install folders, and the API-key step as the agent's own terminal command (#47)
+  - Linux file dialogs: kdialog on KDE, and GTK4 zenity dialogs forced to cairo so they draw (#45)
+  - Memory: patches without a Wavetable no longer grow by about 1 MB a minute
+  - Terminal: infinite node <node> window transparent
+ReleaseNotesUrl: https://github.com/n1m21n/Infinite/releases/tag/v1.2.0
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0

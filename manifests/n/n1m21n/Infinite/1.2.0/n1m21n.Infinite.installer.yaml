@@ -1,0 +1,20 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: n1m21n.Infinite
+PackageVersion: 1.2.0
+InstallerType: inno
+Scope: user
+ProductCode: '{6E1F3C2A-9B4D-4F7E-A1C5-3D8B2F6E9A01}_is1'
+ReleaseDate: 2026-11-09
+InstallationMetadata:
+  DefaultInstallLocation: '%LocalAppData%\Programs\Infinite'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/n1m21n/Infinite/releases/download/v1.2.0/Infinite-Setup-windows-x64.exe
+  InstallerSha256: D280504E1E06E3CEBA353B142EC8E489D9F81D77EA0AB3B45F447B237EACAE0C
+- Architecture: arm64
+  InstallerUrl: https://github.com/n1m21n/Infinite/releases/download/v1.2.0/Infinite-Setup-windows-ARM64.exe
+  InstallerSha256: 863150B261D379FBD4FFFAD24B502BD35D2405A0B09DB615CB316FD6DADAB89D
+ManifestType: installer
+ManifestVersion: 1.28.0
