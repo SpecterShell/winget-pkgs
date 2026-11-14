@@ -1,0 +1,17 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: mouzhai163.mz-browser
+PackageVersion: 0.0.1
+InstallerType: nullsoft
+Scope: user
+Protocols:
+- mz
+ProductCode: MZ指纹浏览器
+ReleaseDate: 2026-11-11
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/mouzhai163/mz-browser/releases/download/v0.0.1/MZ-Browser_0.0.1_x64-setup.exe
+  InstallerSha256: EDD1528FAE770676B46DC5994AC0FD179F9C585DE67B585DA3B7E797B740770E
+ManifestType: installer
+ManifestVersion: 1.28.0
