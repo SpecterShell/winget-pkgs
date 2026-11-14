@@ -1,0 +1,64 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: OpenAEC.OpenPlannerStudio
+PackageVersion: 2026.45.0
+PackageLocale: en-GB
+Publisher: OpenAEC Foundation
+PublisherUrl: https://github.com/OpenAEC-Foundation
+PublisherSupportUrl: https://github.com/OpenAEC-Foundation/open-planner-studio/issues
+PackageName: Open Planner Studio
+PackageUrl: https://open-aec.com/open-planner-studio/
+License: LGPL-3.0
+LicenseUrl: https://github.com/OpenAEC-Foundation/open-planner-studio/blob/HEAD/LICENSE
+ShortDescription: Free open-source construction scheduling app with Critical Path Method, MS Project and Primavera P6 file support, and native IFC 4.3 saves.
+Description: |-
+  Open Planner Studio (OPS) is a free scheduling application for the construction industry. It calculates a schedule with the Critical Path Method, opens and writes the file formats planners already use, and saves in IFC 4.3, the open building standard.
+  It runs in your browser with nothing to install, or as a small native desktop app on Windows, macOS and Linux.
+  Why use it?
+  - Free and open. LGPL-3.0. No licence fees, no account, no lock-in.
+  - Open formats. IFC 4.3 is the native project format. There is no private binary format.
+  - Works with your existing files. Open Microsoft Project (.mpp, .xml) and Primavera P6 (.xer, .xml) files, and export to MS Project XML, P6 XML and CSV.
+  - Scheduling rules you can choose. Calculate with Primavera P6, Microsoft Project or Open Planner Studio conventions, per project.
+  - Built for construction. Public holidays, building-trade holidays, work calendars, inspection milestones, phasing, resource levelling.
+  - MCP. A built-in MCP server lets an AI assistant read and edit your schedule, with safety switches you control.
+  - Multilingual. 28 languages, including right-to-left Arabic and Persian.
+  Advanced scheduling
+  - Critical Path Method with total, free and interfering float, negative float, and a recalculation you trigger yourself (or switch to automatic).
+  - All eight constraint types: As Soon As Possible, As Late As Possible, Start/Finish No Earlier Than, Start/Finish No Later Than, Must Start On, Must Finish On (optionally mandatory, "pin logic"), plus task deadlines.
+  - All four relationship types (FS, SS, FF, SF) with positive and negative lag, in days or hours.
+  - Hammock tasks (level of effort) that follow the work they hang on.
+  - Near-critical tasks with a threshold you set, and multiple float paths to see more than the single longest chain.
+  - Calculation profiles. Three built-in profiles: Open Planner Studio, Primavera P6 and Microsoft Project. A profile is a set of conventions for the places where the two products calculate differently.
+  - Task types (work rules). Choose fixed duration and units, fixed duration and work, fixed work or fixed units per task.
+  - Work breakdown structure, baselines, progress and status date, task splitting in the Gantt, resource levelling and a cross-project occupancy view.
+  Interoperability
+  IFC 4.3 ADD2 is the default native format, written as schema-valid IFC. Every other format is an adapter: open MS Project XML (MSPDI), MS Project .mpp (2010 to 2021, read-only), Primavera P6 XML and .xer (read-only) and CSV, and export to MS Project XML, P6 XML and CSV. IFC is the only format you save to; it carries the whole project. The original .xer is kept inside the saved IFC. Progress can also go through a spreadsheet: export a progress sheet (.xlsx), fill it in on site, and read it back into the open project.
+  Reporting
+  Eleven report types, with a live preview, exported to PDF (A4 to A1): Gantt chart, Resource diagram, Milestone overview, Variance, Look-ahead, Critical and near-critical, Progress report, Schedule health, Resource loading, Resource assignments, WBS summary. Schedule health includes a DCMA 14-point check. Reports can cover a reporting period, compare against a baseline and follow the filter and grouping of your screen.
+  MCP
+  OPS can run a local MCP server (Model Context Protocol) so that an AI assistant works with the schedule you have open. It offers 41 planner_* tools to read and change tasks, relations, resources, calendars, baselines and documents. You decide what the assistant may do: pause, read-only mode, automatic backups and an activity log are on the AI tab. The server is off by default and runs in the desktop app only.
+  Under the hood
+  The desktop app is built with Tauri 2, so the installers are small and use the web view of the system. The scheduling engine is written in TypeScript. It is the same code in the browser and on the desktop. The user interface is React 19, and the Gantt timeline is drawn on a Canvas 2D surface.
+Tags:
+- construction
+- critical-path
+- gantt
+- ifc
+- microsoft-project
+- primavera-p6
+- project-planning
+- scheduling
+ReleaseNotes: |-
+  - After Calculate (F5), see which tasks moved, how the project finish changed and the reason for each shift. Open the Shifts panel or restore the dates from before the calculation.
+  - Progress sheets now compare the returned Excel file with both its export snapshot and your current plan. Resolve conflicting changes before applying them, and use the new Progress curve report to compare planned and actual progress. Reports now offer four bundled fonts.
+  - Export Primavera P6 XER experimentally, with explicit notices about data that cannot be preserved. P6 XML uses the P6 scheduling profile and reports export losses more clearly; IFC remains the native save format.
+  - One Claude Desktop extension works with the running app or starts its own planner in your chosen working folder. Copy the setup prompt from Help or Connection details; switching planners protects unsaved work and requires a document choice. Embedded planners also follow the site's language, theme and settings and support its assistant.
+  - A neutral grey workspace, the approved Open Planner Studio logo and clearer baseline overlays improve readability. Choose your critical-path colours, and select hammock and summary-task names directly while they remain readable near the right edge. macOS gains native window controls and menus; Linux AppImages include IBus and Fcitx input-method modules. United States federal holidays are now available in the calendar generator. Open files by dropping them into the window and let table columns fit their contents.
+  - Fixes improve milestone dragging, remaining duration, percentage lag, night shifts, resource levelling, recovery before updates, reopening recent files and menu or table input. Review new versions of external project sources before accepting anchor changes, choose source files in the browser or on the site, and find dependent projects. Update every workstation before exchanging files with v2026.9.0 or older, which can lose calendar details or time-based task durations.
+ReleaseNotesUrl: https://github.com/OpenAEC-Foundation/open-planner-studio/releases/tag/v2026.45.0
+Documentations:
+- DocumentLabel: Wiki
+  DocumentUrl: https://github.com/OpenAEC-Foundation/open-planner-studio/wiki
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0

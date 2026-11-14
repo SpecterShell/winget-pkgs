@@ -1,0 +1,19 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: OpenAEC.OpenPlannerStudio
+PackageVersion: 2026.45.0
+InstallerType: nullsoft
+Scope: user
+InstallerSwitches:
+  SilentWithProgress: /P
+ProductCode: Open Planner Studio
+ReleaseDate: 2026-11-09
+InstallationMetadata:
+  DefaultInstallLocation: '%LocalAppData%\Open Planner Studio'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/OpenAEC-Foundation/open-planner-studio/releases/download/v2026.45.0/Open.Planner.Studio_2026.45.0_x64-setup.exe
+  InstallerSha256: 3CF19AFF06A94D681760BE96759D159879C4FF26B41A093E4E4D28868E236B6E
+ManifestType: installer
+ManifestVersion: 1.28.0

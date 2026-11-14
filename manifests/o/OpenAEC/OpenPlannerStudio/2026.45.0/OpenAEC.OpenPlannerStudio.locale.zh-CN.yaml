@@ -1,0 +1,46 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.28.0.schema.json
+
+PackageIdentifier: OpenAEC.OpenPlannerStudio
+PackageVersion: 2026.45.0
+PackageLocale: zh-CN
+ShortDescription: 免费开源的施工进度计划软件，支持关键路径法，可打开 Microsoft Project 与 Primavera P6 文件，并以 IFC 4.3 为原生格式保存。
+Description: |-
+  Open Planner Studio (OPS) 是一款面向建筑行业的免费进度计划应用。它使用关键路径法计算进度，可打开并写入计划工程师惯用的文件格式，并以开放建筑标准 IFC 4.3 原生保存项目。
+  它既可在浏览器中直接使用、无需安装，也可作为 Windows、macOS 和 Linux 上的轻量原生桌面应用运行。
+  为什么选择它？
+  - 免费开源：LGPL-3.0。无许可费用，无需账户，不被锁定。
+  - 开放格式：IFC 4.3 是原生项目格式，没有私有二进制格式。
+  - 兼容现有文件：可打开 Microsoft Project（.mpp、.xml）与 Primavera P6（.xer、.xml）文件，并导出为 MS Project XML、P6 XML 和 CSV。
+  - 可选的计算规则：每个项目可按 Primavera P6、Microsoft Project 或 Open Planner Studio 的约定进行计算。
+  - 为建筑行业而生：公共假期、建筑行业假期、工作日历、验收里程碑、分期施工、资源均衡。
+  - MCP：内置 MCP 服务器，可让 AI 助手读取和编辑你的进度计划，并提供由你掌控的安全开关。
+  - 多语言：支持 28 种语言，包括从右到左书写的阿拉伯语和波斯语。
+  高级进度计算
+  - 关键路径法：提供总浮时、自由浮时和干扰浮时、负浮时，可手动触发重新计算（也可切换为自动）。
+  - 全部八种约束类型：越早越好、越晚越好、开始/完成不早于、开始/完成不晚于、必须开始于、必须完成于（可选强制，即"钉定逻辑"），以及任务截止期限。
+  - 全部四种逻辑关系（FS、SS、FF、SF），支持正负搭接，按天或小时计。
+  - 吊床任务（人力投入型），随其所挂靠的工作而变化。
+  - 可设置阈值的近关键任务，以及多条浮动路径（路径 1、2、3……），查看不止一条最长链。
+  - 计算配置文件：内置 Open Planner Studio、Primavera P6 与 Microsoft Project 三种配置。配置是一组约定，用于处理两个产品计算方式不同的地方。
+  - 任务类型（工作规则）：每个任务可选固定工期与资源量、固定工期与工作量、固定工作量或固定资源量。
+  - 工作分解结构、基线、进度与状态日期、甘特图中的任务拆分、资源均衡以及跨项目占用视图。
+  互操作性
+  IFC 4.3 ADD2 是默认的原生格式，写出的 IFC 符合模式校验。其他格式都是适配器：可打开 MS Project XML（MSPDI）、MS Project .mpp（2010 至 2021，只读）、Primavera P6 XML 与 .xer（只读）以及 CSV，并导出为 MS Project XML、P6 XML 和 CSV。IFC 是唯一可保存的格式，承载整个项目。原始 .xer 会保存在所保存的 IFC 中。进度数据还可通过电子表格流转：导出进度表（.xlsx），在现场填写后再读回打开的项目。
+  报表
+  共 11 种报表类型，带实时预览，可导出为 PDF（A4 至 A1）：甘特图、资源图、里程碑一览、偏差、近期计划、关键与近关键、进度报告、进度计划健康度、资源负荷、资源指派、WBS 汇总。进度计划健康度包含 DCMA 14 项检查。报表可覆盖报告期、与基线对比，并沿用屏幕（甘特图）的筛选与分组。
+  MCP
+  OPS 可运行本地 MCP 服务器（模型上下文协议），让 AI 助手处理你打开的进度计划。它提供 41 个 planner_* 工具，可读取和修改任务、逻辑关系、资源、日历、基线和文档。助手能做什么由你决定：暂停、只读模式、自动备份和活动日志都在"AI"标签页中。服务器默认关闭，仅在桌面应用中运行。
+  底层实现
+  桌面应用基于 Tauri 2 构建，安装包小巧，并使用系统自带的 Web 视图。进度计算引擎由 TypeScript 编写，浏览器版与桌面版共用同一套代码。用户界面为 React 19，甘特时间线绘制在 Canvas 2D 画布上。
+Tags:
+- ifc
+- microsoft-project
+- primavera-p6
+- 关键路径
+- 施工
+- 甘特图
+- 进度计划
+- 项目计划
+ManifestType: locale
+ManifestVersion: 1.28.0
