@@ -11,7 +11,6 @@ Installers:
   InstallerUrl: https://github.com/OpenAEC-Foundation/open-speech-studio/releases/download/v0.12.3/Open.Speech.Studio_0.12.3_x64-setup.exe
   InstallerSha256: E10E8DF6F0A8A330F09F63471BA14AFD5AC092805EF578EE4011A525C0E10C7F
   ProductCode: Open Speech Studio
-  ElevationRequirement: elevationRequired
   InstallationMetadata:
     DefaultInstallLocation: '%ProgramFiles%\Open Speech Studio'
 - Architecture: x64
