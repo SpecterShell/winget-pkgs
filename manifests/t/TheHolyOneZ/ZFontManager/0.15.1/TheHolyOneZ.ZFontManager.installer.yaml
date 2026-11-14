@@ -6,6 +6,14 @@ PackageVersion: 0.15.1
 ReleaseDate: 2026-11-13
 Installers:
 - Architecture: x64
+  InstallerType: nullsoft
+  Scope: user
+  InstallerUrl: https://zsync.eu/zfontmanager/releases/ZFontManager_0.15.1_x64-setup.exe
+  InstallerSha256: A66AAD6862C658FDEAB9D8613BCC23459C1859DD2591CFEAE04615BB21003F8B
+  ProductCode: ZFontManager
+  InstallationMetadata:
+    DefaultInstallLocation: '%LocalAppData%\ZFontManager'
+- Architecture: x64
   InstallerType: wix
   Scope: machine
   InstallerUrl: https://zsync.eu/zfontmanager/releases/ZFontManager_0.15.1_x64_en-US.msi
@@ -15,13 +23,5 @@ Installers:
   ProductCode: '{3B6768B1-0639-475B-8335-367B89C35D60}'
   AppsAndFeaturesEntries:
   - UpgradeCode: '{B396890F-DCB0-578C-B3F8-81A0E97C7258}'
-- Architecture: x64
-  InstallerType: nullsoft
-  Scope: user
-  InstallerUrl: https://zsync.eu/zfontmanager/releases/ZFontManager_0.15.1_x64-setup.exe
-  InstallerSha256: A66AAD6862C658FDEAB9D8613BCC23459C1859DD2591CFEAE04615BB21003F8B
-  ProductCode: ZFontManager
-  InstallationMetadata:
-    DefaultInstallLocation: '%LocalAppData%\ZFontManager'
 ManifestType: installer
 ManifestVersion: 1.28.0
