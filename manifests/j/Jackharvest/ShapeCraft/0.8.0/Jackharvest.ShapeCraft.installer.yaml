@@ -1,0 +1,39 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: Jackharvest.ShapeCraft
+PackageVersion: 0.8.0
+ReleaseDate: 2026-11-14
+Installers:
+- Architecture: x64
+  InstallerType: inno
+  Scope: user
+  InstallerUrl: https://github.com/jackharvest/shapecraft/releases/download/v0.8.4-alpha/shapecraft-0.8.4-windows-x64-setup.exe
+  InstallerSha256: BAEE129CE013C2EE327F3CF26F751B9DF28FDE7CA92363D4E4EBCF92FC2508B9
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+  ProductCode: '{6F1C2A4E-3B7D-4C59-9E2A-5D8B1F0C7A31}_is1'
+  InstallationMetadata:
+    DefaultInstallLocation: '%LocalAppData%\Programs\ShapeCraft'
+- Architecture: x64
+  InstallerType: inno
+  Scope: machine
+  InstallerUrl: https://github.com/jackharvest/shapecraft/releases/download/v0.8.4-alpha/shapecraft-0.8.4-windows-x64-setup.exe
+  InstallerSha256: BAEE129CE013C2EE327F3CF26F751B9DF28FDE7CA92363D4E4EBCF92FC2508B9
+  InstallerSwitches:
+    Custom: /ALLUSERS
+  ProductCode: '{6F1C2A4E-3B7D-4C59-9E2A-5D8B1F0C7A31}_is1'
+  InstallationMetadata:
+    DefaultInstallLocation: '%LocalAppData%\Programs\ShapeCraft'
+- Architecture: x64
+  InstallerType: wix
+  Scope: user
+  InstallerUrl: https://github.com/jackharvest/shapecraft/releases/download/v0.8.4-alpha/shapecraft-0.8.4-windows-x64.msi
+  InstallerSha256: 83EA9BE87827AF65D9991F478E2908331625E8A1AC27FE2CE09034554C341058
+  InstallerSwitches:
+    InstallLocation: INSTALLFOLDER="<INSTALLPATH>"
+  ProductCode: '{22F20C27-8BB3-4795-8CF3-24E1C1E4521B}'
+  AppsAndFeaturesEntries:
+  - UpgradeCode: '{08595BF4-FF15-4278-9413-8F8CFF2897DA}'
+ManifestType: installer
+ManifestVersion: 1.28.0
